@@ -36,8 +36,15 @@ The OPEN DID system aims to provide open source based on the following principle
 * **Adherence to Principles**: Each principle of the OPEN DID system should be applied in system design and implementation without violating other principles.
 
 ## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please contribute to the Open DID project in various ways. For more details, refer to [How to Contribute to Open DID](https://github.com/opendid/did-doc-architecture/main/CONTRIBUTING.md).
 
+
+## Versioning
+For version control of the Open DID project, refer to [Open DID Version Control](https://github.com/opendid/did-doc-architecture/main/VERSIONING.md).
+
+
+## Authors
+Check out the list of [Contributors](https://github.com/opendid/did-doc-architecture/main/graphs/contributors) who participated in the Open DID project.
 
 ## License
-Copyright 2024 Raonsecure
+This project is distributed under the MIT License. For more details, refer to the [License](https://github.com/opendid/did-doc-architecture/main/LICENSE).
