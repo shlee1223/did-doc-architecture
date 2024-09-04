@@ -6,7 +6,7 @@ OPEN DID is designed with key elements to enable many countries and members to b
 * The OPEN DID system consists of a Trust Environment for establishing a trust chain among participating Entities, a Wallet for storing and managing various credentials based on Digital ID, a Digital ID embracing various credentials, and Security for data protection.
 * The value of this OPEN DID open source is expected to become the foundation of all digital activities online in the future.
 
-![overview](../../assets/index_overview.png)
+![overview](docs/assets/index_overview.png)
 
 ## Principles
 The OPEN DID system aims to provide open source based on the following principles. These principles are intended to build a reliable digital identity verification environment and ensure that all participants can use it fairly and safely.
