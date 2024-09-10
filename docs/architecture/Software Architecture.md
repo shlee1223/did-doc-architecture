@@ -87,11 +87,11 @@ C4 model은 소프트웨어 시스템의 아키텍처를 시각화하기 위한 
 | 참조명       | 문서명                                             | 위치                 |
 | ------------ | -------------------------------------------------- | -------------------- |
 | [C4-MODEL]   | The C4 model for visualising software architecture | https://c4model.com/ |
-| [DATA-SPEC]  | (OpenDID) 데이터 명세서(Data Specification)        |                      |
-| [USER-REG]   | (OpenDID) 사용자 등록                              |                      |
-| [ISSUE-VC]   | (OpenDID) VC 발급                                  |                      |
-| [PRESENT-VP] | (OpenDID) vp 제출                                  |                      |
-| [VC-FORMAT]  | (OpenDID) VC format                                |                      |
+| [DATA-SPEC]  | (OpenDID) 데이터 명세서(Data Specification)        |  [데이터 명세서](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/data%20standard/data%20specification/Data%20Specification_ko.md)                    |
+| [USER-REG]   | (OpenDID) 사용자 등록                              |  [사용자 등록](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/concepts/User%20Registration_ko.md)                    |
+| [ISSUE-VC]   | (OpenDID) VC 발급                                  | [VC 발급](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/concepts/VC%20Issuance_ko.md)                     |
+| [PRESENT-VP] | (OpenDID) vp 제출                                  |  [VP 제출](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/concepts/Presentation%20of%20VP_ko.md)                    |
+| [VC-FORMAT]  | (OpenDID) VC format                                | [VC 포맷](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/data%20standard/verifiable%20credential%20format/VC%20format_ko.md)                     |
 
 
 <div style="page-break-after: always;"></div>

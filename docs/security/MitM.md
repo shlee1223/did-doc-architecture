@@ -1,6 +1,6 @@
 # Man-in-the-middle Attack (manipulator-in-the-middle attack, MitM)
 ## MitM Attack during ECDH Execution
-![](../../assets/ecdh_middle_attack.png)
+![](./images/MitM_ecdh_middle_attack.svg)
 The diagram above illustrates a Man-in-the-Middle (MitM) attack during ECDH execution.
 - Entity A
 - Entity B
@@ -14,7 +14,7 @@ Assuming A and B establish a secure channel between them and encrypt data using 
 they may believe their communication is secure. However,
 in reality, A communicates with X as well as B, and vice versa, allowing X to intercept all communications.
 ## MitM Attack Defense through Mutual Authentication
-![](../../assets/auth_safe_middle_attack.png)
+![](./images/MitM_auth_safe_middle_attack.svg)
 The diagram above depicts defense against MitM attacks during ECDH execution through mutual authentication.
 - Entity A
 - Entity B

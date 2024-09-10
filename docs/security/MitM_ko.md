@@ -1,6 +1,6 @@
 # 중간자 공격(manipulator-in-the-middle attack, MitM)
 ## ECDH 수행 시 중간자 공격
-![](../../assets/ecdh_middle_attack.png)
+![](./images/MitM_ecdh_middle_attack_ko.svg)
 위 그림은 ECDH 수행 시 중간자 공격에 대한 그림이다.
 - 엔티티 A
 - 엔티티 B
@@ -15,7 +15,7 @@ A와 B는 둘 간의 보안채널이 형성되었다고 생각하고 ECDH를 통
 실제로는 A는 X와 B도 X와 통신하게 되기 때문에 X가 중간에서 그 내용을 다 알게 된다.
 
 ## 상호인증을 통한 중간자 공격 방어
-![](../../assets/auth_safe_middle_attack.png)
+![](./images/MitM_auth_safe_middle_attack_ko.svg)
 위 그림은 ECDH 수행 시 상호인증을 통해 중간자 공격을 방어하는 그림이다.
 - 엔티티 A
 - 엔티티 B

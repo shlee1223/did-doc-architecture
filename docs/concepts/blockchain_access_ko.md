@@ -4,7 +4,7 @@
 - OpenDID에선 APP에서 직접 블록체인에 붙는것이 아닌 서버를 통해서 붙는 방식을 사용한다.
 - 블록체인 앞단에는 인증서를 발급받은 API 서버가 존재하며 이를 통해 블록체인에 접근할 수 있다.
 
-![](../../assets/api_blockcahin_connect.png)
+![](./images/blockchain_access_api_ko.svg)
 
 ## 사업자를 통한 블록체인 연동
 - 월렛-월렛 서버, 인가앱-인가앱 서버 간에는 신뢰채널이 형성되어 있다고 가정한다.
@@ -16,4 +16,4 @@
     - 내부망에 있는 사업자들간에는 보안세션 연결 과정을 생략할 수 있다.
     - 외부망에서 내부망에 접근하기 위해선 보안세션 과정을 진행해야 한다.
     
-![](../../assets/entity_blockchain_connect.png)
+![](./images/blockchain_access_entity_ko.svg)

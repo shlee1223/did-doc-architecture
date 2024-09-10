@@ -30,7 +30,7 @@ Wallet Token은 App이 Wallet에 접근할 수 있게 하는 Token으로 Wallet�
 #### Wallet Token 발급 과정
 아래는 Wallet Token 발급 과정을 요약하여 그린 다이어그램입니다.
 
-![proc_wallet_token](../../assets/proc_wallet_token.svg)
+![proc_wallet_token](.//images/proc_wallet_token.svg)
 
 1. 인가앱은 Wallet에 WalletTokenSeed를 요청합니다.
 2. Wallet은 WalletTokenSeed를 생성하여 인가앱으로 전달합니다.
@@ -45,7 +45,7 @@ Wallet Token은 App이 Wallet에 접근할 수 있게 하는 Token으로 Wallet�
 11. 인가앱은 Wallet을 사용할 때마다 WalletToken을 제출합니다.
 
 #### Wallet Token 상세 발급 과정
-![proc_wallet_token_detail](../../assets/proc_wallet_token_detail.svg)
+![proc_wallet_token_detail](./images/proc_wallet_token_detail.svg)
 
 #### Wallet Token 데이터
 아래는 Wallet Token을 생성하기 위해 필요한 데이터 규격입니다. 자세한 내용은 [DATA-SPEC]를 참고해 주세요.
@@ -89,7 +89,7 @@ Server Token은 App이 TA 등의 서비스에 접근할 수 있게 하는 Token�
 
 #### Server Token 발급 과정
 
-![proc_server_token](../../assets/proc_server_token.svg)
+![proc_server_token](./images/proc_server_token.svg)
 
 1. 인가앱은 Wallet에 SignedWalletInfo를 요청합니다.
 2. Wallet은 SignedWalletInfo를 생성하여 인가앱에 전달합니다.
@@ -108,7 +108,7 @@ Server Token은 App이 TA 등의 서비스에 접근할 수 있게 하는 Token�
 
 #### Server Token 상세 발급 과정
 
-![proc_server_token](../../assets/proc_server_token_detail.svg)
+![proc_server_token](./images/proc_server_token_detail.svg)
 
 #### Server Token 데이터
 아래는 Server Token을 생성하기 위해 필요한 데이터 규격입니다. 자세한 내용은 [DATA-SPEC]를 참고해 주세요.

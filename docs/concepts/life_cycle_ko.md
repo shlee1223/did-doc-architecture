@@ -3,13 +3,13 @@
 
 월랫과 DID Document, VC는 각각의 생명주기를 가지며 자세한 내용은 아래 상세설명을 참고하세요.
 
-![이미지 설명](../../assets/overall_life_cycle.png)
+![이미지 설명](./images/life_cycle_overall.svg)
 
 ## 생명주기 상세 설명
 월랫은 생명 **주기별 4단계** 상태를 가진다.
 <br>
 
-![이미지 설명](../../assets/wallet_life_cycle.png)
+![이미지 설명](./images/life_cycle_wallet_ko.svg)
 
 ### 1. 월랫 생명 주기별 상태
 * `INSTALLED`
@@ -41,7 +41,7 @@ DID가 발급된 상태며 DID/ VC 관련 모든 기능을 수행 가능
 ### 2. DID 생명 주기
 DID는 생명 **주기별 5단계** 상태를 가진다.
 <br>
-![이미지 설명](../../assets/diddoc_life_cycle.png)
+![이미지 설명](./images/life_cycle_diddoc_ko.svg)
 <!-- 한줄 띄기 입니다. -->
 
 ### * 월랫 생명 주기별 상태
@@ -85,7 +85,7 @@ DID Document를 말소한다. (어떠한 목적으로도 사용 불가능)
 ### 3. VC 생명 주기
 VC(Verifiable Credential)는 생명 **주기별 4단계** 상태를 가진다.
 <br>
-![이미지 설명](../../assets/vc_life_cycle.png)
+![이미지 설명](./images/life_cycle_vc_ko.svg)
 <!-- 한줄 띄기 입니다. -->
 
 ### * 월랫 생명 주기별 상태

@@ -11,7 +11,7 @@
 인증을 요청하는 엔티티(A)가 DID로 등록되어 있을 경우 DID Doc에 등록된 Key ID(KID)값으로 서명을 생성하여 전달한다.<br>
 상대방은 인증을 요청하는 엔티티(A)의 DID Doc을 조회하여 DID Authentication을 수행한다.
 
-![DID Authentication](../../assets/did_did_authentication.png)
+![DID Authentication](./images/authentication_did.svg)
 
 ### DID+인증서 기반 Authentication
 인증을 요청하는 엔티티(aa)가 DID로 등록된 엔티티가 아닌 경우 인증서를 적용한 방안이다.<br>
@@ -19,7 +19,7 @@ DID가 없는 엔티티(aa)는 DID로 등록된 상위 엔티티(A)로 부터 �
 DID가 없는 엔티티(aa)는 서명 생성 시 자신의 키로 서명을 한 후 상대방에게 인증서를 같이 전달한다.<br>
 상대방은 인증서의 서명자(A)의 DID Doc를 조회하여 인증서를 검증하고 인증서의 공개키롤 DID Authentication의 서명을 검증한다
 
-![Cert DID Authentication](../../assets/cert_did_authentication.png)
+![Cert DID Authentication](./images/authentication_cert_did.svg)
 
 ## DID Mutual Authentication : 상호 인증
 두 엔티티가 서로를 인증해야 하는 경우 사용할 수 있다.<br>
@@ -32,17 +32,17 @@ DID가 없는 엔티티(aa)는 서명 생성 시 자신의 키로 서명을 한 
 ### DID 기반 DID Mutual Authentication
 DID로 등록된 두 엔티티가 서로를 인증하는 방식이다.(DID 기반 Authentication 참고)
 
-![](../../assets/did_mutual_authentication.png)
+![](./images/authentication_did_mutual.svg)
 
 ### DID+인증서 기반 Mutual Authentication
 DID 로 등록되지 않은 두 엔티티가 서로를 인증하는 방식이다.(DID+인증서 기반 Authentication 참고)
 
-![](../../assets/cert_did_mutual_authentication.png)
+![](./images/authentication_cert_did_mutual.svg)
 
 ### 혼합형 Mutual Authentication
 DID로 등록된 엔티티와 DID로 등록되지 않은 엔티티간의 상호 인증도 가능하다.
 
-![](../../assets/mix_mutual_authentication.png)
+![](./images/authentication_mix_mutual.svg)
 
 
 ## DID DH-ECDHE : 보안채널 (상호인증 + 키 교환)
@@ -59,7 +59,7 @@ DH 메시지를 수신한 엔티티는 데이터 검증을 위해 상대방의 D
 서명 검증 후 수신한 공개키와 자신의 DH 용 임시키 쌍의 개인키를 이용하여 DH를 수행하고 KDF를 통해 대칭키를 생성한다.<br>
 생성된 대칭키를 이용하여 상대방과 데이터 통신 시 데이터 암호화 및 무결성 체크에 사용한다.<br>
 
-![](../../assets/did_dh_ecdhe.png)
+![](./images/authentication_did_dh_ecdhe.svg)
 
 ### DID+인증서 기반 DH-ECDHE
 DID로 등록되지 않은 엔티티가 보안채널을 형성 시 인증서를 적용한 방안이다.<br>
@@ -71,12 +71,12 @@ DH 메시지 서명을 검증하기 위하여 인증서 내의 공개키로 서�
 서명 검증 후 수신한 임시키의 공개키와 자신의 임시키의 개인키를 이용하여 DH를 수행하고 KDF를 통해 대칭키를 생성한다.<br>
 생성된 대칭키를 이용하여 상대방과 데이터 통신 시 데이터 암호화 및 무결성 체크에 사용한다.
 
-![](../../assets/cert_did_dh.png)
+![](./images/authentication_cert_did_dh.svg)
 
 ### 혼합형 DH
 DID로 등록된 엔티티와 DID로 등록되지 않은 엔티티 간의 DH도 가능하다.
 
-![](../../assets/mix_did_dh.png)
+![](./images/authentication_mix_did_dh.svg)
 
 
 ## 인증서
@@ -86,6 +86,5 @@ DID 등록 버전에 대해서만 서술한다.
 
 ### DID 등록 버전
 DID를 등록하는 방식의 인증서 형태, 상위 엔티티의 서명을 받아 인증서를 발급한다.<br>
-아래의 Device DID
 
-![](../../assets/device_key_did.png)
+![](./images/authentication_device_key_did.svg)

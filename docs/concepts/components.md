@@ -4,7 +4,7 @@ This document explains the main components that make up the Open DID system and 
 ## Open DID Components
 The components of the Open DID system include entities, services, and providers. Providers combine entities to offer services. The diagram below shows how these components are structured.
 
-![overview](../../assets/components.png)
+![overview](./images/components_type.svg)
 
 ### Entities
 Entities perform a single function. Each entity has a specific role, and the main entities in Open DID are as follows:
@@ -32,4 +32,4 @@ Providers are entities that combine various services to offer comprehensive solu
 ## Overall Architecture
 The diagram below represents the overall architecture of Open DID. To clearly illustrate the entities that make up Open DID, each provider is assumed to offer a single service, and that service provides the function of a single entity.
 
-![components_overview](../../assets/components_overview.png)
+![components_overview](./images/components_provider.svg)

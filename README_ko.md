@@ -1,4 +1,6 @@
-# Open DID
+Open DID
+==
+
 OPEN DID 플랫폼을 통하여 디지털 세상의 다양한 구성원에게 신뢰와 책임에 기반한 디지털 신원인증시스템을 제공하고자 합니다. 이를 통해 사회적 비용을 감소시키며, 인프라로부터 소외된 계층에게는 "인류 가치 실현을 위한 사회적 책임"을 다할 수 있도록 합니다.
 
 OPEN DID는 많은 국가와 구성원들이 이와같은 생태계를 구성할 수 있도록 핵심 요소들이 디자인 되었습니다.
@@ -6,9 +8,9 @@ OPEN DID는 많은 국가와 구성원들이 이와같은 생태계를 구성할
 * OPEN DID 시스템은 참여하는 Entities간 신뢰체인 구성을 위한 Trust Environment, Digital ID 기반의 다양한 증명서를 저장 및 관리할 수 있는 Wallet, 다양한 증명서를 포용하는 Digital ID, 그리고 데이터 보호를 위한 Security로 구성합니다.
 * 이러한 OPEN DID 오픈소스의 가치는 향후 온라인에서의 모든 디지털 활동의 근간이 될 것으로 기대합니다.
 
-![overview](../../assets/index_overview.png)
+![overview](docs/assets/images/index_overview.png)
 
-## Principles
+## 1. Principles
 OPEN DID 시스템은 아래와 같은 원칙으로 오픈소스를 제공하고자 합니다. 이러한 원칙들은 신뢰할 수 있는 디지털 신원 인증 환경을 구축하고, 모든 참여자가 공정하고 안전하게 사용할 수 있도록 하기 위함입니다.
 
 * **독립적 동작**: OPEN DID 시스템의 구성 요소들은 서로 간의 의존성을 최소화하여, 개별적으로 동작할 수 있어야 합니다.
@@ -35,9 +37,67 @@ OPEN DID 시스템은 아래와 같은 원칙으로 오픈소스를 제공하고
 
 * **원칙 준수**: OPEN DID 시스템의 각 원칙은 다른 원칙을 위반하지 않는 선에서 시스템 설계와 구현에 적용되어야 합니다.
 
+## 2. DID Repository 목록
 
-## Contributing
+#### Document
+
+1. [did-doc-architecture](https://github.com/OmniOneID/did-doc-architecture)
+
+#### Server SDK
+
+1. [did-blockchain-sdk-server](https://github.com/OmniOneID/did-blockchain-sdk-server)
+1. [did-core-sdk-server](https://github.com/OmniOneID/did-core-sdk-server)
+1. [did-crypto-sdk-server](https://github.com/OmniOneID/did-crypto-sdk-server)
+1. [did-datamodel-sdk-server](https://github.com/OmniOneID/did-datamodel-sdk-server)
+1. [did-wallet-sdk-server](https://github.com/OmniOneID/did-wallet-sdk-server)
+
+#### Mobile SDK 
+
+1. [did-client-sdk-aos](http://gitlab.raondevops.com/opensourcernd/source/sdk/app/did-client-sdk-aos)
+1. [did-client-sdk-ios](http://gitlab.raondevops.com/opensourcernd/source/sdk/app/did-client-sdk-ios)
+
+#### Server Application 
+
+1. [did-fabric-contact](https://github.com/OmniOneID/did-fabric-contract)
+1. [did-cli-tool-server](https://github.com/OmniOneID/did-cli-tool-server)
+
+## 3. Folder Structure
+```
+did-doc-architecture
+    ├── CLA.md
+    ├── CODE_OF_CONDUCT.md
+    ├── CONTRIBUTING.md
+    ├── MAINTAINERS.md
+    ├── README.md
+    ├── README_ko.md
+    └── docs
+        ├── architecture
+        ├── assets
+        ├── concepts
+        ├── data standard
+        ├── guide
+        ├── rules
+        └── security
+```
+
+|  이름 |         역할                    |
+| ------- | ------------------------------------ |
+| CLA.md             | Contributor License Agreement                |
+| CODE_OF_CONDUCT.md| 기여자의 행동강령            |
+| CONTRIBUTING.md| 기여 절차 및 방법           |
+| MAINTAINERS.md          | 유지관리 가이드              |
+| README.md  |  프로젝트의 전체적인 개요 설명            |
+| docs  |   문서            |
+| ┖ architecture  | Open DID 아키텍처          |
+| ┖ assets |  표, 이미지 데이터            |
+| ┖ concepts |  주요 개념 설명            |
+| ┖ data standard |  데이터 표준 규격            |
+| ┖ guide |  문서 작성 방법 및 OSD 문법            |
+| ┖ rules |  코딩 스타일 및 커밋 규칙            |
+| ┖ security |  보안취약점 보고 및 보안정책           |
+
+## 4. Contributing
 Contributing 및 pull request 제출 절차에 대한 자세한 내용은 [CONTRIBUTING.md](CONTRIBUTING.md)와 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) 를 참조하세요.
 
-## License
+## 5. License
 Copyright 2024 Raonsecure

@@ -4,7 +4,7 @@
 ## Open DID 구성 요소
 Open DID 시스템의 구성 요소로는 엔티티, 서비스, 사업자가 있습니다. 사업자는 엔티티를 조합하여 서비스를 제공하는데, 아래 그림은 이러한 구성 요소들이 어떻게 구조화되어 있는지를 보여줍니다. 
 
-![overview](../../assets/components.png)
+![overview](./images/components_type.svg)
 
 ### 엔티티 (Entity)
 엔티티는 하나의 기능을 수행하는 요소입니다. 각 엔티티는 특정 역할을 담당하는데, Open DID의 주요 엔티티는 아래와 같습니다.
@@ -32,4 +32,4 @@ Open DID 시스템의 구성 요소로는 엔티티, 서비스, 사업자가 있
 ## 전체 구성도
 아래의 그림은 Open DID의 전체 구성도 입니다. Open DID를 구성하는 엔티티를 명확히 보여주기 위해, 각 사업자가 하나의 서비스를 제공하고, 그 서비스는 하나의 엔티티의 기능만 제공하는 것으로 가정합니다.
 
-![components_overview](../../assets/components_overview.png)
+![components_overview](./images/components_provider.svg)

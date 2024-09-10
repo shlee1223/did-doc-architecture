@@ -41,10 +41,10 @@
 [wallet.md](./wallet.md) 정책 참고
 
 ### 공통
-![](../../assets/common_sequency.svg)
+![](./images/manage_pii_common_sequency_ko.svg)
 ### File Wallet
-![](../../assets/file_wallet_sequency.svg)
+![](./images/manage_pii_file_wallet_sequency_ko.svg)
 ### App Wallet
-![](../../assets/app_wallet_sequency.svg)
+![](./images/manage_pii_app_wallet_sequency_ko.svg)
 ### Cloud Wallet
-![](../../assets/cloud_wallet_sequency.svg)
+![](./images/manage_pii_cloud_wallet_sequency_ko.svg)

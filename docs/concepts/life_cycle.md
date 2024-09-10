@@ -3,13 +3,13 @@ The diagram below illustrates a typical workflow supported by the OpenDID protoc
 
 A Wallet, DID Document, and VC each have their own lifecycle. For more details, please refer to the following detailed descriptions.
 
-![Image Description](../../assets/overall_life_cycle.png)
+![Image Description](./images/life_cycle_overall.svg)
 
 ## Detailed Lifecycle Description
 The wallet undergoes a **4-stage lifecycle**.
 <br>
 
-![Image Description](../../assets/wallet_life_cycle.png)
+![Image Description](./images/life_cycle_wallet.svg)
 
 ### 1. Wallet Lifecycle States
 * `INSTALLED`
@@ -40,7 +40,7 @@ Upon deletion of user information (PII), the wallet status changes to stage 2 (C
 ### 2. DID Lifecycle
 DID undergoes a **5-stage lifecycle**.
 <br>
-![Image Description](../../assets/diddoc_life_cycle.png)
+![Image Description](./images/life_cycle_diddoc.svg)
 <!-- Spacing for line break -->
 
 ### * Wallet Lifecycle States
@@ -80,7 +80,7 @@ This function is requested by TAS.
 ### 3. VC Lifecycle
 VC (Verifiable Credential) undergoes a **4-stage lifecycle**.
 <br>
-![Image Description](../../assets/vc_life_cycle.png)
+![Image Description](./images/life_cycle_vc.svg)
 <!-- Spacing for line break -->
 
 ### * Wallet Lifecycle States

@@ -12,7 +12,7 @@ The entity which receives the signed data can authenticate and trust the entity 
 If the entity requesting authentication (A) is registered with a DID, it generates a signature with the Key ID (KID) value registered in the DID Doc and sends it.
 The recipient verifies the DID Authentication by querying the DID Doc of entity (A) requesting authentication.
 
-![DID Authentication](../../assets/did_did_authentication.png)
+![DID Authentication](./images/authentication_did.svg)
 
 ### DID + Certificate-based Authentication
 For entities (aa) without a DID, applying a certificate is considered.
@@ -20,7 +20,7 @@ Entity (aa) without a DID obtains a certificate from the upper entity (A), which
 Entity (aa), without a DID, signs using its own key and sends the certificate to the recipient.
 The recipient queries the DID Doc of the certificate issuer (A) to verify the certificate and uses the public key in the certificate to verify the signature for DID Authentication.
 
-![Cert DID Authentication](../../assets/cert_did_authentication.png)
+![Cert DID Authentication](./images/authentication_cert_did.svg)
 
 ## DID Mutual Authentication: Mutual Authentication
 It can be used when two entities need to authenticate each other.<br>
@@ -33,17 +33,17 @@ Through mutual authentication, entities establish mutual trust.
 ### DID-based DID Mutual Authentication
 A method where two entities registered with DID authenticate each other (Refer to DID-based Authentication).
 
-![](../../assets/did_mutual_authentication.png)
+![](./images/authentication_did_mutual.svg)
 
 ### DID + Certificate-based Mutual Authentication
 A method where two entities not registered with DID authenticate each other (Refer to DID + Certificate-based Authentication).
 
-![](../../assets/cert_did_mutual_authentication.png)
+![](./images/authentication_cert_did_mutual.svg)
 
 ### Hybrid Mutual Authentication
 Mutual authentication is also possible between entities registered with DID and those not registered with DID.
 
-![](../../assets/mix_mutual_authentication.png)
+![](./images/authentication_mix_mutual.svg)
 
 
 ## DID DH-ECDHE: Secure Channel (Mutual Authentication + Key Exchange)
@@ -60,7 +60,7 @@ The recipient entity queries the DID Doc of the counterpart for signature verifi
 After signature verification, using the received public key and its private key for the temporary key pair, each entity performs DH and generates a symmetric key through KDF.<br>
 The generated symmetric key is used for data encryption and integrity check when communicating with the counterpart.
 
-![](../../assets/did_dh_ecdhe.png)
+![](./images/authentication_did_dh_ecdhe.svg)
 
 ### DID + Certificate-based DH-ECDHE
 For entities not registered with DID forming a secure channel, applying a certificate is considered.<br>
@@ -72,12 +72,12 @@ To verify the DH message signature, it verifies the signature with the public ke
 AAfter signature verification, each entity performs DH and generates a symmetric key through KDF using the received temporary key's public key and its temporary key's private key.<br>
 The generated symmetric key is used for data encryption and integrity check when communicating with the counterpart.
 
-![](../../assets/cert_did_dh.png)
+![](./images/authentication_cert_did_dh.svg)
 
 ### Hybrid DH
 DH between entities registered with DID and those not registered with DID is also possible.
 
-![](../../assets/mix_did_dh.png)
+![](./images/authentication_mix_did_dh.svg)
 
 ## Certificate
 Describes the used certificate when entities not registered with DID form a security channel.
@@ -85,6 +85,5 @@ There are methods for registering a DID with a certificate issued by signing wit
 
 ### DID Registration Version
 Registering a DID involves issuing a certificate signed by the upper entity.<br>
-Below is the Device DID.
 
-![](../../assets/device_key_did.png)
+![](./images/authentication_device_key_did.svg)

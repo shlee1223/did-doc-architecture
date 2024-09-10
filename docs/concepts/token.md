@@ -30,7 +30,7 @@ Wallet Token is a token that allows an app to access a wallet, and it is issued 
 #### Wallet Token Issuance Process
 Below is a summary diagram of the Wallet Token issuance process.
 
-![proc_wallet_token](../../assets/proc_wallet_token.svg)
+![proc_wallet_token](./images/proc_wallet_token_ko.svg)
 
 1. The CApp requests the WalletTokenSeed from the wallet.
 2. The wallet generates the WalletTokenSeed and delivers it to the CApp.
@@ -45,7 +45,7 @@ Below is a summary diagram of the Wallet Token issuance process.
 11. The CApp submits the Wallet Token whenever it uses the wallet.
 
 #### Detailed Wallet Token Issuance Process
-![proc_wallet_token_detail](../../assets/proc_wallet_token_detail.svg)
+![proc_wallet_token_detail](./images/proc_wallet_token_detail_ko.svg)
 
 #### Wallet Token Data
 Below are the data specifications necessary for generating a Wallet Token. For more details, please refer to [DATA-SPEC].
@@ -89,7 +89,7 @@ Server Token is a token that allows an app to access services like TA (Trusted A
 
 #### Server Token Issuance Process
 
-![proc_server_token](../../assets/proc_server_token.svg)
+![proc_server_token](./images/proc_server_token_ko.svg)
 
 1. The CApp requests the SignedWalletInfo from the wallet.
 2. The wallet generates the SignedWalletInfo and delivers it to the CApp.
@@ -108,7 +108,7 @@ Server Token is a token that allows an app to access services like TA (Trusted A
 
 #### Detailed Server Token Issuance Process
 
-![proc_server_token_detail](../../assets/proc_server_token_detail.svg)
+![proc_server_token_detail](./images/proc_server_token_detail_ko.svg)
 
 #### Server Token Data
 Below are the data specifications necessary for generating a Server Token. For more details, please refer to [DATA-SPEC].

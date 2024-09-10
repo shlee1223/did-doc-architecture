@@ -4,7 +4,7 @@
 - In OpenDID, rather than connecting directly from the app to the blockchain, a server-mediated approach is utilized.
 - An API server, certified with an authentication certificate, sits in front of the blockchain, enabling access to it.
 
-![](../../assets/api_blockcahin_connect.png)
+![](./images/blockchain_access_api.svg)
 
 ## Blockchain Integration via Providers
 - Assume a trust channel exists between wallet-to-wallet servers and CApp-to-CApp servers.
@@ -17,4 +17,4 @@
     - Security session establishment can be omitted among providers within the intranet.
     - External networks require a security session to access the intranet.
 
-![](../../assets/entity_blockchain_connect.png)
+![](./images/blockchain_access_entity.svg)

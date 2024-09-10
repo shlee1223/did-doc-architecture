@@ -41,10 +41,10 @@ Therefore, a clear design is needed on how `TAS` will receive and utilize PII.
 [wallet.md](./wallet.md) Refer to the policy
 
 ### Common
-![](../../assets/common_sequency.svg)
+![](./images/manage_pii_common_sequency.svg)
 ### File Wallet
-![](../../assets/file_wallet_sequency.svg)
+![](./images/manage_pii_file_wallet_sequency.svg)
 ### App Wallet
-![](../../assets/app_wallet_sequency.svg)
+![](./images/manage_pii_app_wallet_sequency.svg)
 ### Cloud Wallet
-![](../../assets/cloud_wallet_sequency.svg)
+![](./images/manage_pii_cloud_wallet_sequency.svg)
