@@ -2,24 +2,25 @@
 
 ## 1. 커밋 메시지 구조
 
-기본적으로 제목 / 본문 / 꼬리말로 구성하고 한 줄의 공백을 두어 구분
+기본적으로 제목 / 본문 / 꼬리말로 구성하고 한 줄의 공백을 두어 구분한다.
 
 - **type**: 해당 커밋은 무엇에 대한 작업인지 키워드를 통해 표시
 - **subject**: 커밋메시지의 제목
 - **body**: 커밋메시지의 본문 (선택사항)
 - **footer**: 커밋메시지의 맺음말 (선택사항)
 
-```c#
+```c
 Type: Subject
 
 Body
 
 Footer
+
 ```
 
 ### 1.1. type
 
-- **feat**: 새로운 기능 추가
+- **feat:**: 새로운 기능 추가
 - **fix**: 버그 수정
 - **build**: 빌드 관련 파일 수정
 - **ci**: CI관련 설정 수정
@@ -28,6 +29,18 @@ Footer
 - **refactor**: 코드 리팩토링
 - **test**: 테스트(테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없는 경우)
 - **chore**: 기타 변경사항(빌드 스크립트 수정 등)
+
+### 1.1.1. scope (선택 사항)
+
+- **scope**는 커밋이 영향을 미치는 특정 모듈이나 파일을 명시하는 선택 사항이다.
+- **scope**는 **type** 뒤에 괄호로 표기되며, 필요 시 커밋의 대상 영역을 나타낸다.
+
+#### 예시:
+
+```c#
+feat(auth): implement JWT token validation
+fix(user-profile): correct image upload bug
+```
 
 ### 1.2. subject
 
@@ -39,15 +52,16 @@ Footer
 - 이슈 관련 내용이라면 이슈 번호를 제목에 포함함
 
 예시: 영문 제목 케이스
-```c#
-# Add : 추가
-# Remove : 삭제
-# Simplify : 단순화
-# Update : 보완
-# Implement : 구현
-# Prevent : 방지
-# Move : 이동
-# Rename : 이름 변경
+
+```c
+# Add : Add
+# Remove : Remove
+# Simplify : Simplify
+# Update : Update
+# Implement : Implement
+# Prevent : Prevent
+# Move : Move
+# Rename : Rename
 ```
 
 ### 1.3. body
@@ -59,11 +73,12 @@ Footer
 ### 1.4. footer
 
 - 어떤 이슈에서 왔는지 같은 **참조 정보들을 추가**하는 용도로 사용
+- Breaking Changes 관련 정보를 포함할 수 있다. 브레이킹 체인지를 명시하려면 Breaking Changes: 변경 내용 형식을 사용해야 한다.
 
 ### 1.5. 예시
 
-```c#
-feat: Summarize changes in around 50 characters or less 
+```c
+feat: Summarize changes in around 50 characters or less
 More detailed explanatory text, if necessary. Wrap it to about 72
 characters or so. In some contexts, the first line is treated as the
 subject of the commit and the rest of the text as the body. The
@@ -95,59 +110,22 @@ See also: #456, #789
 ### 1.6. 정리
 
 | Type | Subject | Body (선택 사항) | Footer (선택 사항) |
-|------|---------|------------------|---------------------|
+| --- | --- | --- | --- |
 | feat: 새로운 기능 추가 | 제목은 최대 50글자를 넘기지 않는다. | 본문은 한 줄당 72자 내로 작성한다. | 이슈 트래커 ID를 작성한다. |
 | fix: 버그 수정 | 마침표 및 특수기호는 사용하지 않는다. | 양에 구애받지 않고 최대한 상세히 작성한다. | "유형: #이슈 번호" 형식으로 작성한다. |
 | docs: 문서 수정 | 영문으로 표기하는 경우 동사 원형을 가장 앞에 두고 첫 글자는 대문자로 표기한다.(과거 시제 사용 금지) | 어떻게 변경했는지 보다 무엇을 변경했는지 또는 왜 변경했는지를 설명한다. | 여러 개의 이슈 번호를 적을 때는 쉼표(,)로 구분한다. |
-| style: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우 | | | Fixes: 이슈 수정 중 (아직 해결되지 않은 경우) |
-| refactor: 코드 리팩토링 | | | Resolves: 이슈를 해결한 경우 |
-| test: 테스트 코드, 리팩토링 테스트 코드 추가 | | | Ref: 참고할 이슈가 있을 경우 |
-| chore: 빌드 업무 수정, 패키지 매니저 수정, production code와 무관한 부분들 (.gitignore, build.gradle 같은) | | | Related to: 해당 커밋에 관련된 이슈 번호(아직 해결되지 않은 경우) |
-| comment: 주석 추가 및 변경 | | | ex) Fixes: #45 Related to: #34, #23 |
-| remove: 파일, 폴더 삭제 | | | |
-| rename: 파일, 폴더명 수정 | | | |
+| style: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우 |  |  | Fixes: 이슈 수정 중 (아직 해결되지 않은 경우) |
+| refactor: 코드 리팩토링 |  |  | Resolves: 이슈를 해결한 경우 |
+| test: 테스트 코드, 리팩토링 테스트 코드 추가 |  |  | Ref: 참고할 이슈가 있을 경우 |
+| chore: 빌드 업무 수정, 패키지 매니저 수정, production code와 무관한 부분들 (.gitignore, build.gradle 같은) |  |  | Related to: 해당 커밋에 관련된 이슈 번호(아직 해결되지 않은 경우) |
+| comment: 주석 추가 및 변경 |  |  | ex) Fixes: #45 Related to: #34, #23 |
+| remove: 파일, 폴더 삭제 |  |  |  |
+| rename: 파일, 폴더명 수정 |  |  |  |
 
 ## 2. 예약 키워드 사용
 
-### 2.1. 예약 키워드
+커밋 메시지에 **resolve**, **fix**, **close**와 같은 예약어를 사용하면 이슈 트래커에서 관련 이슈가 자동으로 닫힐 수 있다. 기여자는 이 예약어들을 피하고, 대신 다음과 같은 대체 단어를 사용할 수 있다:
 
-커밋 메시지를 영어로 작성할 때 예약된 키워드가 있다면 특정 기능이 동작하도록 하는데
-아래와 같은 키워드를 사용하여 이슈를 자동으로 종료하는 방법이 있으며 예약된 키워드는
-커밋 메시지의 어느 위치에 있어도 동작함
-
-- **fix / fixes /fixed**
-  - 코드 변경과 연관된 이슈 해결에 사용됨
-  - 주로 버그 수정이나 기능 변경과 관련된 이슈를 해결할 때 사용
-- **resolve / resolves / resolved**
-  - 코드 변경과는 직접적인 연관이 없는 이슈를 처리하는 데 사용
-  - 주로 기술적인 문제 해결이나 요구 사항 충족을 위한 이슈 해결에 사용
-- **close / closes / closed**
-  - 이슈를 닫을 때 사용
-  - 위의 두 키워드보다 더 일반적이며, 코드 변경과 관계 없이 이슈를 완료하거나 해결할 때 사용
-
-### 2.2. 예시
-
-- 커밋 후 브랜치를 푸시하면 아래 메시지로 이슈가 자동으로 종료
-- 이슈 종료는 커밋이 속한 브랜치에 따라 달라짐
-- 기본 브랜치가 **master**인 경우
-  - master 브랜치에서 커밋 후 원격 서버로 푸시하면 해당 이슈가 종료
-  - 다른 브랜치에서 커밋하면 추후 원격 서버의 master 브랜치에 머지될 때 이슈가 종료
-
-```c#
-# 제목에 이슈 한 개 닫기를 적용한 사례
-Close #31 - refactoring wrap-up
-
-* This is wrap-up of refactoring main code.
-* main.c
-  * removed old comments
-  * fixed rest indentations
-  * method extraction at line no. 35
-
-# 본문에 이슈 여러 개 닫기를 적용한 사례
-Update policy 16/04/02
-
-* This closes #128 - cab policy, closes #129 - new hostname, and fixes #78 - bug on logging.
-* cablist.txt: changed ACL due to policy update delivered via email on 16/04/02, @mr.parkyou
-* hostname.properties: cab hostname is updated
-* BeautifulDeveloper.java: logging problem on line no. 78 is fixed. The `if` statement is never happening. This deletes the `if` block.
-```
+- references: 문제 해결을 시도하거나 해당 이슈를 다룰 때 사용
+- relates to: 특정 문제를 처리하거나 관련이 있을 때 사용
+- see: 작업이 진행 중임을 나타내고 참고할 이슈를 명시할 때 사용
