@@ -1,96 +1,95 @@
 # Contribution Guidelines
-We welcome your contributions! We aim to make the process of contributing to this project as easy and transparent as possible. Here are the ways you can contribute:
+We appreciate your contributions! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
-- Reporting bugs  
-- Discussing code quality  
-- Submitting fixes  
-- Proposing new features  
+- Reporting a bug
+- Discussing the current state of the code
+- Submitting a fix
+- Proposing new features
 
-## We Develop with GitHub  
-We host our code, manage issues and feature requests, and accept pull requests through GitHub.  
+## Contribution Process
 
-## Documentation Writing and Management Guidelines  
+Thank you for contributing to the project! This guide explains how to contribute to the project, the code style rules, and the review criteria. Please familiarize yourself with the following content before making any contributions.
 
-### Documentation Tools  
-Most design documents use Markdown (*.md) format. Below is a list of tools used to write Markdown documents.  
-| Tool               | Purpose                                  | Notes                   |  
-| ------------------ | ---------------------------------------- | ----------------------- |  
-| Visual Studio Code | Markdown, PlantUML editing, and PDF build |                         |  
-| PlantUML           | Writing UML diagrams                     |                         |  
-| yEd                | Creating various diagrams including UML  |                         |  
+1. **Creating an Issue**
+    - Before starting any work, create an issue related to the task you wish to work on. All work, including bug fixes, feature improvements, and new proposals, should be initiated after the issue is registered.
+    - When creating an issue, use the provided issue template and fill in accurate information.
+2. **Issue Assignment**
+    - Once the issue is created, the administrator will review and may assign the issue to an external contributor.
+    - Before being assigned, make sure that the same task is not already in progress.
+3. **Fork and Branch Creation**
+    - Refer to [Pull Request Guidelines](#pull-request-guidelines)
+4. **Writing Code**
+    - Ensure that the code strictly follows the project's [Coding Style](#coding-style) guidelines.
+    - Submit the PR after confirming that all tests pass successfully.
+5. **Creating a Pull Request (PR)**
+    - Commit your work and create a PR.
+    - In the PR description, provide detailed information about the changes and link the related issue number to connect it to the issue.
+    - Write concise and clear commit messages.
+        - Refer to [Commit Message Guideline](#commit-message-guidelines)
+6. **Code Review**
+    - Once the PR is created, the administrator will review the code. Update the PR by incorporating the reviewer’s feedback.
+    - Once the review is complete, the administrator will merge the PR.
 
-### Diagram Creation Methods  
+## Code Review Standards
 
-**- Using PlantUML**  
-There are two ways to insert PlantUML diagrams within Markdown:  
-1. Create UML in a separate file (*.puml), export it as an image, and import the image into Markdown.  
-2. Write the code directly within Markdown.  
+We conduct code reviews based on the following standards to ensure that your contribution maintains consistency with the project and upholds quality:
 
+1. **Code Quality**
+    - Write code that is easy to read and maintain.
+    - Avoid overly complex logic, and if possible, suggest better solutions.
+    - Minimize duplicated code and check if the code can be refactored into reusable modules.
+2. **Feature Verification**
+    - Test the new feature or bug fix to ensure it works as intended.
+    - All tests must pass before submitting the PR.
+    - Include any additional necessary tests in the PR.
+3. **Code Style Compliance**
+    - Ensure that your code follows the project's [Coding Style](#coding-style).
+    - Feedback will be given if there are formatting issues or violations of naming conventions.
+4. **Commit Messages**
+    - Ensure that commit messages clearly describe the changes made.
+    - Avoid including too many modifications in a single commit. If possible, divide changes into smaller commits.
+5. **Documentation**
+    - If new features, APIs, or configuration changes are introduced, make sure to update or add relevant documentation.
+    - Write appropriate comments in the code, especially for explaining complex logic.
 
-**- Using yEd**  
-yEd allows you to create diagrams by editing shapes and lines with a mouse, similar to PowerPoint, while PlantUML requires coding to create diagrams. Diagrams created with yEd can be exported in various image formats such as SVG, PNG, or JPG to be inserted into Markdown documents.  
+##  Code of Conduct
+We are committed to fostering a contribution environment where everyone is treated with respect. Please make sure to read and follow the [Code of Conduct](CODE_OF_CONDUCT.md) before starting your contribution.
 
-### Document Structure  
-
-The repository contains documentation as .md files corresponding to each directory in the `docs` folder, structured as follows:
-
-
-```
-XXXX.md
- - /graphml - .graphml files created with yEd  
- - /images - Images converted from diagrams created with yEd and PlantUML, such as PNG and SVG files  
- - /plantuml - .puml files created with PlantUML  
-
-```
-* Images inserted into the md files are exported with the same file names to manage the history of the files created with graphml and plantuml.  
-This means that one image corresponds to one graphml or plantuml file.  
-
-### Document Modification Example  
-
-If changes occur in the `Software Architecture.md of docs/architecture`:  
- 1. Write the content for 4.8 Notification Service  
- 2. Add the yEd diagram for Notification Service (graphml/308.component_notification_service.graphml)  
- 3. Export the .graphml to SVG and add it (images/308.component_notification_service.svg)  
- 4. Write the corresponding content in the md file and insert the image
-
-```
-### 4.8. Notification Service  
-Write a description of the notification service // Write content  
-![](images/308.component_notification_service.svg) // Insert image  
-```
-<br>
-
-## We Use Gitflow, So Code Development Follows a Structured Process
-We manage development using [Gitflow](https://nvie.com/posts/a-successful-git-branching-model/). All code changes are integrated through pull requests, and we follow a development workflow using various branches like `develop`, `feature`, and `release`. Here’s how to contribute:
-
-1. **Fork** the `develop` branch of the remote repository into your account.
-2. **Develop features** and ensure the code has been tested.
-3. If necessary, **update the documentation** to reflect the changes.
-4. Ensure all tests pass, and the code adheres to our coding style and linting rules.
-5. Once work is complete, submit a **pull request** to the `develop` branch.
-6. When creating a pull request, designate appropriate **reviewers** to review the code changes.  
-   It’s advisable to choose reviewers who are familiar with the codebase and to consider their availability for providing feedback.
-7. Also, assign **assignees** to clarify responsibility for the work.  
-   **All maintainers of the repository** should be assigned as **assignees** on the pull request to ensure accountability for the changes and to facilitate a smooth review process.
-
-> **Note**: Assignees are responsible for ensuring that the pull request is reviewed and merged appropriately. Designating all maintainers as assignees is an important step to ensure they are aware of the changes and can respond quickly.
-
-## Reporting Bugs Using GitHub Issues
-We track bugs using GitHub issues. You can easily report bugs by [opening a new issue](issues).
+## Issue Reporting Guidelines
+We use GitHub Issues to track and manage bugs.
+If you encounter a bug, please open a new issue on GitHub. When reporting an issue, please use the provided issue template to clearly describe the problem. This helps us resolve the issue more quickly.
 
 ### Writing a Good Bug Report
-A **good bug report** should include the following:
-- A brief summary or background explanation of the issue.
-- Steps to reproduce the bug (detailed and specific).
-- The expected outcome and the actual result.
-- Any additional information or notes that might help identify the problem.
+A good bug report includes the following:
+- A quick summary or background of the issue.
+- Steps to reproduce the bug (be specific and detailed).
+- Expected vs. actual results.
+- Any additional context or information that could help us diagnose the issue.
 
-## Contributor License Agreement (CLA)
-Before accepting a pull request, you must submit a CLA once. The full CLA can be found here: [Contributor License Agreement](CLA.md).
+## Pull Request Guidelines
+1. **Fork** from the `develop` branch of the remote repository.
+2. **Develop the feature**, and ensure the code has been properly tested.
+3. If necessary, update the **documentation** to reflect the changes.
+4. Verify that all tests pass and that the code adheres to our coding style and linting rules.
+5. Once the work is complete, submit a **pull request** to the `develop` branch.
+6. When creating the pull request, assign an appropriate **reviewer** to review the code changes.  
+   It is recommended to choose someone familiar with the codebase, considering their availability for providing feedback.
+7. Also, assign **assignees** to clarify responsibility for the task.  
+   Assign **all maintainers of the repository** as assignees to ensure accountability and a smooth review process.
+
+> **Note**: Assignees are responsible for ensuring the pull request is reviewed and merged appropriately. Assigning all maintainers as assignees is a crucial step to ensure they are aware of the changes and can respond quickly.
 
 ## Coding Style
-Our coding style follows the [OpenDID Coding Style](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/rules/coding_style.md). Adhering to it ensures that the code is consistent, easy to read, and maintainable.
+Our coding style is based on the [OpenDID Coding Style](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/rules/coding_style.md). Adhering to these guidelines ensures that the code is clean, readable, and maintainable.
+
+## Document Creation and Editing Guide
+Our document creation process follows the [OpenDID Document Guide](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/guide/docs/write_document_guide.md). Most of the design documents we create use the Markdown (*.md) format, ensuring consistency and ease of collaboration.
 
 ## Commit Message Guidelines
-Our commit messages follow the [OpenDID Commit Rules](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/rules/git_code_commit_rule.md). Clear commit messages help convey the intent of the changes and make the code history easier to navigate.
+Our commit messages follow the [OpenDID Commit Rule](https://github.com/OmniOneID/did-doc-architecture/blob/main/docs/rules/git_code_commit_rule.md). Well-structured commit messages help others understand the intent behind your changes and make it easier to navigate the code history.
 
+## Signing the CLA
+Before we can accept your pull request, you must submit a CLA. This only needs to be done once. Complete your CLA here: [Contributor License Agreement](CLA.md)
+
+## License
+Copyright 2024 Raonsecure
