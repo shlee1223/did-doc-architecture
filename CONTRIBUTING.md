@@ -7,7 +7,6 @@ We appreciate your contributions! We want to make contributing to this project a
 - Proposing new features
 
 ## Contribution Process
-
 Thank you for contributing to the project! This guide explains how to contribute to the project, the code style rules, and the review criteria. Please familiarize yourself with the following content before making any contributions.
 
 1. **Creating an Issue**
@@ -30,8 +29,10 @@ Thank you for contributing to the project! This guide explains how to contribute
     - Once the PR is created, the administrator will review the code. Update the PR by incorporating the reviewer’s feedback.
     - Once the review is complete, the administrator will merge the PR.
 
-## Code Review Standards
+## Detailed Contribution Guide via GitHub
+Please refer to [Detailed Contribution Guide via GitHub](https://github.com/OmniOneID/did-doc-architecture/blob/main/how_to_contribute_to_open_did.md) for detailed instructions on how to contribute to the project. This guide includes command examples and screenshots to help you better understand the process.
 
+## Code Review Standards
 We conduct code reviews based on the following standards to ensure that your contribution maintains consistency with the project and upholds quality:
 
 1. **Code Quality**
