@@ -37,7 +37,32 @@ The OPEN DID system aims to provide open source based on the following principle
 
 * **Adherence to Principles**: Each principle of the OPEN DID system should be applied in system design and implementation without violating other principles.
 
-## 2. DID Repository List
+## 2. Glossary
+Understanding the key terms used in the OpenDID platform is crucial for grasping the concepts of the project.
+
+For detailed descriptions of each term, please refer to [glossary.md](docs/guide/glossary.md).
+
+## 3. System Architecture
+To understand the overall system architecture of OpenDID, refer to the components and software architecture of OpenDID.
+
+This section explains the role of each component in OpenDID and how they interact to form the data flow.
+- [Components](docs/concepts/components.md): Describes the components of OpenDID.
+- [Software Architecture](docs/architecture/Software%20Architecture.md): Explains the overall system architecture and data flow.
+
+## 4. OpenDID Standards
+Learn about the standards defined by OpenDID. 
+
+OpenDID standards are designed to promote interoperability, enhance security, and adhere to the core principles of decentralized identity management.
+
+These standards apply consistent rules and protocols throughout the project.
+
+For more information, refer to the following documents:
+1. [Concepts](docs/concepts): Explains the key concepts of OpenDID.
+2. [Security](docs/security): Covers security-related topics, explaining how the OpenDID platform is protected from security threats.
+<!--3. [Protocol](docs/protocol): Describes the communication protocols used by OpenDID and how interaction between DID networks is handled.-->
+
+
+## 5. DID Repository List
 
 #### Document
 
@@ -61,7 +86,7 @@ The OPEN DID system aims to provide open source based on the following principle
 1. [did-fabric-contact](https://github.com/OmniOneID/did-fabric-contract)
 1. [did-cli-tool-server](https://github.com/OmniOneID/did-cli-tool-server)
 
-## 3. Folder Structure
+## 6. Folder Structure
 ```
 did-doc-architecture
     ├── CLA.md
@@ -97,8 +122,8 @@ did-doc-architecture
 | ┖ security         | Security policies and vulnerability reporting |
 
 
-## 4. Contributing
+## 7. Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## 5. License
+## 8. License
 Copyright 2024 Raonsecure
