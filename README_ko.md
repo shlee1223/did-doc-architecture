@@ -37,7 +37,32 @@ OPEN DID 시스템은 아래와 같은 원칙으로 오픈소스를 제공하고
 
 * **원칙 준수**: OPEN DID 시스템의 각 원칙은 다른 원칙을 위반하지 않는 선에서 시스템 설계와 구현에 적용되어야 합니다.
 
-## 2. DID Repository 목록
+## 2. 용어집
+OpenDID 플랫폼에서 사용되는 주요 용어를 이해하는 것은 프로젝트의 개념을 파악하는 데 매우 중요합니다.
+
+각 용어에 대한 자세한 설명은 [glossary.md](docs/guide/glossary.md)에서 확인할 수 있습니다.
+
+## 3. 시스템 구조
+OpenDID의 전체적인 시스템 구성을 이해하기 위해, OpenDID의 컴포넌트와 소프트웨어 아키텍처를 참조하세요.
+
+OpenDID의 각 컴포넌트가 어떤 역할을 수행하는지, 그리고 이들이 어떻게 상호작용하여 데이터 흐름을 형성하는지를 설명합니다.
+- [Components](docs/concepts/components.md): OpenDID의 구성 요소를 설명합니다.
+- [Software Architecture](docs/architecture/Software%20Architecture.md): 전체 시스템 아키텍처 및 데이터 흐름을 설명합니다.
+
+## 4. OpenDID 표준
+OpenDID에서 정의한 표준에 대해 알아봅니다. 
+
+OpenDID 표준은 상호운용성을 촉진하고, 보안성을 강화하며, 분산된 신원 관리의 핵심 원칙을 따르도록 설계되었습니다. 
+
+이를 통해 프로젝트 전반에 걸쳐 일관된 규칙과 프로토콜을 적용합니다.
+
+자세한 내용은 다음 문서를 참조하세요:
+1. [Concepts](docs/concepts): OpenDID의 주요 개념을 설명합니다.
+2. [Security](docs/security): 보안 모델과 관련된 사항을 다룹니다. OpenDID 플랫폼이 보안 위협으로부터 어떻게 보호되는지 설명합니다.
+<!--3. [Protocol](docs/protocol): OpenDID에서 사용하는 통신 프로토콜에 대한 설명입니다. 네트워크 간의 상호작용 방식을 다룹니다.-->
+
+  
+## 5. DID Repository 목록
 
 #### Document
 
@@ -61,7 +86,7 @@ OPEN DID 시스템은 아래와 같은 원칙으로 오픈소스를 제공하고
 1. [did-fabric-contact](https://github.com/OmniOneID/did-fabric-contract)
 1. [did-cli-tool-server](https://github.com/OmniOneID/did-cli-tool-server)
 
-## 3. Folder Structure
+## 6. Folder Structure
 ```
 did-doc-architecture
     ├── CLA.md
@@ -96,8 +121,8 @@ did-doc-architecture
 | ┖ rules |  코딩 스타일 및 커밋 규칙            |
 | ┖ security |  보안취약점 보고 및 보안정책           |
 
-## 4. Contributing
+## 7. Contributing
 Contributing 및 pull request 제출 절차에 대한 자세한 내용은 [CONTRIBUTING.md](CONTRIBUTING.md)와 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) 를 참조하세요.
 
-## 5. License
+## 8. License
 Copyright 2024 Raonsecure
