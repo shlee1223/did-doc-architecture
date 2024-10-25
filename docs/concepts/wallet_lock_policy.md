@@ -6,6 +6,12 @@ It generates, changes, and retrieves a cek (content encryption key) based on the
 The cek is managed by the service wallet and is used during wallet lock/unlock.
 The passcode input screen is implemented in the CApp, and the passcode is matched when registered or changed.
 
+The locked and non-locked wallets operate according to user authentication as follows.
+
+![Image Description](./images/wallet_type_access_sdk.svg)
+
+The technical logic for registering and authenticating a user's passcode to set up a locked wallet is explained below.
+
 * Terms
     * cek = content encryption key
     * kek = key encryption key

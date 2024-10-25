@@ -126,4 +126,4 @@ did-doc-architecture
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## 8. License
-Copyright 2024 Raonsecure
+Copyright 2024 OmniOne
