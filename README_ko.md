@@ -125,4 +125,4 @@ did-doc-architecture
 Contributing 및 pull request 제출 절차에 대한 자세한 내용은 [CONTRIBUTING.md](CONTRIBUTING.md)와 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) 를 참조하세요.
 
 ## 8. License
-Copyright 2024 OmniOne
+[Apache 2.0](LICENSE)
