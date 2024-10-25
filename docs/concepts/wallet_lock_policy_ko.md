@@ -5,7 +5,13 @@
 <br>
 cek는 서비스 월랫에서 관리하며 월랫 lock/ unlock시 사용된다.
 인가앱에서 passcode 입력 화면을 구현하고 passcode는 등록, 변경시 인가앱에서 매칭시킨다.
- 
+
+잠금 형태의 월랫과 잠금형태가 아닌 월랫의 방식은 아래와 같이 사용자 인증 유무에 따라 동작한다.
+
+![이미지 설명](./images/wallet_type_access_sdk_ko.svg)
+
+잠금 형태의 지갑을 설정하기 위해서 사용자의 패스코드 등록과 인증에 대한 기술적 로직을 아래에서 설명한다.
+
 * 용어
     * cek = content encrpytion key
     * kek = key encryption key
