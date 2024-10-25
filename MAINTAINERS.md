@@ -8,6 +8,11 @@ If you have any questions or require support, please reach out to the maintainer
 
 ## Maintainers
 
-| Name        | GitHub    | Email                  |
-| ----------- | --------- | ---------------------- |
-| Fisrt  Last | Git_Name  | yourEmail@raoncorp.com |
+| Name         | GitHub         | Email                   |
+| ------------ | -------------- | ----------------------- |
+| Mikyung  Lee | mikyung-lee    | mklee@raoncorp.com      |
+| Yoongyu Lee  | yoongyu-lee    | yklee0911@raoncorp.com  |
+| Jinhwan Kim  | jinhwankim6557 | jhkim6557@raoncorp.com  |
+| Gilwoo Nam   | gw-nam         | gwnam@raoncorp.com      |
+| Sangjun Kim  | sjkim          | sjkim@raoncorp.com      |
+| Dongjun Park | djpark0402     | djpark0402@raoncorp.com |
