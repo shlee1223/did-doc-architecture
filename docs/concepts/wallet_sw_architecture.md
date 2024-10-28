@@ -1,36 +1,50 @@
 <!-- Individual documents may be merged in the future, so the table of contents is not used. -->
 
 # Wallet SW Archtecture
-CA(Certified App)는 신뢰 가능한 월랫 기능을 제공하기 위해서 유저 등록, VC 발급, VP 제출 등 WalletAPI, Utility, Communication, DataModel SDK를 참조하여 각 프로토콜 별 기능을 구현할 수 있다.
-
-아래 각 기능에 대한 자세한 내용은 프로토콜 문서(경로…)를 참고한다.
-
-1. 유저 등록 프로토콜
-2. VC 발급 프로토콜
-3. VP 제출 프로토콜
+CA (Certified App) can implement functions for each protocol by referencing Wallet, Utility, Communication, and DataModel SDKs to provide reliable wallet functions, such as user registration, VC issuance, and VP submission.
 
 ![wallet_sw_archetecture](./images/wallet_sw_architecture.svg)
 
-### 1. SDK 설명
-상기 SDK구조는 OpenDID의 클라이언트의 인가앱과 월랫 소프트웨어 관계 구조도이며 아래는 각 SDK별 대표 클래스를 설명한다.
 
+### 1. SDK Description
+The above SDK structure is a relationship structure diagram between the OpenDID client's authorization app and wallet software, and the representative classes for each SDK are explained below.
+
+- Wallet SDK
+  - OpenDID Wallet SDK, and provides functions for creating, storing, and managing the WalletToken, Lock/Unlock, Key, DID Document (DID Document), and Verifiable Credential (hereinafter referred to as VC) information required for Open DID.
+- Core SDK
+  - OpenDID Core SDK, providing functions to generate, store, and manage the keys, DID Document, and Verifiable Credential (VC) information required for Open DID.
+- Communication SDK
+  - OpenDID Communication SDK, which provides a communication interface to manage HTTP requests and responses, supporting GET and POST methods with JSON payloads.
+- Utility SDK
+  - Using the Crypto Utility SDK, providing various encryption, 
+- DataModel SDK
+  - Using the DataModel SDK, defining the data model used in the app and wallet SDK.
 
 | SDK Group          | Classes          | Features                                                       |
 |---------------------|------------------|----------------------------------------------------------------|
-| WalletAPI SDK       | WalletService     | - 유저 등록, VC발급, VP 제출 비즈니스 로직 처리<br>- 서명 값을 이용한 Proof 생성 |
-|                     | WalletCore        | - key, DID/VC, VP 생성<br>- sign                             |
-|                     | LockManager       | - Wallet 타입 및 상태 변경                                   |
-|                     | WalletToken       | - walletToken 생성, 검증                                      |
-|                     | DBManager         | - User정보, WalletToken, CA list 관리                        |
-| CoreWallet SDK      | KeyManager        | - 사용자 키 생성, 인증, 서명                                  |
-|                     | DIDManager        | - DIDDocument 생성 관리                                       |
-|                     | VCManager         | - VC 생성 관리                                               |
-| Communication SDK   | NetworkClient     | - CA와 Wallet 공통 통신 모듈                                  |
-| Utility SDK         | DigestUtils       | - hash 공통 유틸                                             |
-|                     | MultibaseUtils    | - 인/디코딩 공통 유틸                                        |
-|                     | CryptoUtils       | - 랜덤값 및 키쌍 생성, 암/복호화 공통 유틸                  |
-| DataModel SDK       | VO Objects        | - 데이터 포맷 및 직렬화/역직렬화                              |
-| CA SDK              | URLScheme         | - 단독 Wallet과 연결                                          |
-|                     | CAUtils           | - 월렛과 TAS 접근 Token 생성<br>- 세션키 생성               |
+| Wallet SDK          | WalletService        | - Processing business logic for user registration, VC issuance, and VP submission<br>- Generating Proof using Signature Value |
+|                     | WalletCore        | - Generating key, DID/VC, VP <br>- sign                             |
+|                     | LockManager       | - Change Wallet Type and Status                                   |
+|                     | WalletToken       | - Create and verify walletToken                                     |
+|                     | DBManager         | - ser information, WalletToken, CA list management                       |
+| Core SDK            | KeyManager        | - User key generation, authentication, and signing                                  |
+|                     | DIDManager        | - DIDDocument creation management                                       |
+|                     | VCManager         | - VC Creation Management                                               |
+| Communication SDK   | NetworkClient     | - CA and Wallet common communication module                                  |
+| Utility SDK         | DigestUtils       | - hash common utility                                             |
+|                     | MultibaseUtils    | - En/Decode Common Utility                                        |
+|                     | CryptoUtils       | - Generate random values ​​and key pairs, encryption/decryption common utility                  |
+| DataModel SDK       | VO Objects        | - Data formats and serialization/deserialization                              |
 
+
+
+## 1.1 User registration Description
+For detailed explanation, refer to the user registration protocol. [user-registration](./User%20Registration.md)
+![wallet_sw_archetecture](./images/wallet_sw_architecture_reg_user.svg)
+## 1.2 VC Issuance Description
+For detailed explanation, refer to the VC issuance protocol. [VC-Issuance](./VC%20Issuance.md)
+![wallet_sw_archetecture](./images/wallet_sw_architecture_issue_vc.svg)
+## 1.3 VP Submission Description
+lease refer to the VP Submission Protocol for detailed instructions. [Presentation-VP](./Presentation%20of%20VP.md)
+![wallet_sw_archetecture](./images/wallet_sw_architecture_submit_vp.svg)
 <br>
