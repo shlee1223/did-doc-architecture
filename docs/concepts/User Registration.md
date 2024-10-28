@@ -18,19 +18,16 @@ puppeteer:
 User Registration
 ==
 
-- Topic: Explanation of the concept of user registration
-- Author: Kang Youngho
-- Date: 2024-06-27
-- Version: v0.7.2
+- Subject: Explanation of the concept of user registration
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
 
-Revision History
----
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
 
-| Version | Date       | Changes                                 |
-| ------- | ---------- | --------------------------------------- |
-| v0.7.0  | 2024-06-14 | Initial version                         |
-| v0.7.1  | 2024-06-18 | Changed storage location for user mapping info |
-| v0.7.2  | 2024-06-27 | Removed passcode creation for wallet    |
+<br>
 
 Table of Contents
 ---

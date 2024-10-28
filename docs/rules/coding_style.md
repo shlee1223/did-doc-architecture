@@ -1,5 +1,3 @@
-The following is the completed code convention document that includes the revisions I proposed. It is written in markdown format.
-
 # OpenDID Code Application Guidelines
 
 ## Reference Guides

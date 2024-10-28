@@ -1,4 +1,16 @@
 # Wallet Policy
+
+- Subject: Wallet Policy
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 ## Wallets Available for Use Upon Reinstallation
 
 When reinstalling the app, the types of wallets available to the user and the corresponding policies are as follows.

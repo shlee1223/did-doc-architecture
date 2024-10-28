@@ -1,6 +1,18 @@
 <!-- Individual documents may be merged in the future, so the table of contents is not used. -->
 
 # Wallet
+
+- Subject: Explanation of Wallet Interface
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 Users can create their wallet to securely store and use their digital ID and identity certificates. The wallet supports the following types:
 
 ```code

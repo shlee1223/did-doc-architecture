@@ -1,4 +1,16 @@
 # Wallet
+
+- Subject: Explanation of Wallet
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 A Wallet is a software or hardware-based repository that securely stores and manages important data such as digital identities, credentials, and cryptographic keys. Wallets support individuals or organizations in maintaining trusted identities in the digital world and safely accessing or performing transactions with various services.
 
 This document describes the Wallet used in Open DID.

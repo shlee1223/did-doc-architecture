@@ -1,6 +1,18 @@
 <!-- Individual documents may be merged in the future, so the table of contents is not used. -->
 
 # Authentication and Secure Channel Creation
+
+- Subject: Authentication and Secure Channel Creation
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 ## DID Authentication (DID Auth, DID Assertion): One-way Authentication
 Entities may require authentication to trust other entities accessing them.<br>
 To receive authentication, an entity signs the agreed-upon data with its key and requests authentication from the other party.<br>

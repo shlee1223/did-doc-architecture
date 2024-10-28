@@ -1,4 +1,16 @@
 # PII
+
+- Subject: Mange of PII
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 ## Overview
 `TAS` must store the User's PII (Personally Identifiable Information). When PII is received, it can be used as follows:
 

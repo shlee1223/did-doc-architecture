@@ -1,6 +1,17 @@
 
 # JSON Serialization
 
+- Subject: JSON Serialization
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 This document provides a guide for consistently serializing and sorting JSON data. It is crucial to maintain consistent rules when serializing objects into JSON to generate the original text for signing and signature verification.
 
 ## JSON Sorting Method

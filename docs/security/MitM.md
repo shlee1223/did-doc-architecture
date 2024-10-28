@@ -1,5 +1,17 @@
 # Man-in-the-middle Attack (manipulator-in-the-middle attack, MitM)
 ## MitM Attack during ECDH Execution
+
+- Subject: Man-in-the-middle Attack
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 ![](./images/MitM_ecdh_middle_attack.svg)
 The diagram above illustrates a Man-in-the-Middle (MitM) attack during ECDH execution.
 - Entity A

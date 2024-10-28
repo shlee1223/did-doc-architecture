@@ -1,4 +1,17 @@
-# Description
+# Wallet Life Cycle
+
+- Subject: Wallet Life Cycle
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
+
 The diagram below illustrates a typical workflow supported by the OpenDID protocol. Specific workflows are determined by issuance policies, and users proceed through registration steps, service connections, and application execution to securely store DID Documents and VCs within their wallets.
 
 A Wallet, DID Document, and VC each have their own lifecycle. For more details, please refer to the following detailed descriptions.

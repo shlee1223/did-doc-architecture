@@ -1,6 +1,18 @@
 <!-- Individual documents may be merged in the future, so a table of contents is not used. -->
 
 # Wallet Lock
+
+- Subject: Wallet Lock
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 It generates, changes, and retrieves a cek (content encryption key) based on the passcode received from the Certified App (CApp).
 <br>
 The cek is managed by the service wallet and is used during wallet lock/unlock.
