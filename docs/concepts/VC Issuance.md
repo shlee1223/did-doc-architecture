@@ -18,24 +18,16 @@ puppeteer:
 VC Issuance
 ==
 
-- Topic: Explanation of VC Issuance Concept
-- Author: Kang Young-ho
-- Date: 2024-08-19
-- Version: v1.1.3
+- Subject: Explanation of VC Issuance Concept
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
 
-Revision History
----
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
 
-| Version | Date       | Changes                                                                           |
-| ------- | ---------- | --------------------------------------------------------------------------------- |
-| v1.0.0  | 2024-05-24 | Initial draft                                                                     |
-| v1.1.0  | 2024-05-28 | Reflecting comments from the first review meeting                                 |
-| v1.1.1  | 2024-06-04 | <li>Changed name from VcOfferPayload to IssueOfferPayload                         |\
-|         |            | <li>Changed name from Inspect Issue Propose to Inspect Propose                    |\
-|         |            | <li>Changed name from Generate Issue Profile to Generate Profile                  |
-| v1.1.2  | 2024-06-11 | <li>Revised process diagram in section 4.3 "Issuance"                             |\
-|         |            | <br>&nbsp;&nbsp;- User authentication for DID Auth performed by authorization app |
-| v1.1.3  | 2024-08-19 | <li>Change ECHD to ECDH                                                         |
+<br>
 
 Table of Contents
 ---

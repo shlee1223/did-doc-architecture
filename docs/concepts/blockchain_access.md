@@ -1,4 +1,16 @@
 # Blockchain Integration
+
+- Subject: Blockchain Integration
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 ## Connecting to the Blockchain via API Server
 - For public blockchains, direct access from external networks to the blockchain is possible.
 - In OpenDID, rather than connecting directly from the app to the blockchain, a server-mediated approach is utilized.

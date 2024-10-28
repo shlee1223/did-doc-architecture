@@ -1,4 +1,16 @@
 # Open DID Token
+
+- Subject: Open DID Token
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 Open DID uses various tokens to verify client permissions.
 This document details the functions and data specifications of the tokens used in Open DID, and systematically organizes the token issuance process.
 

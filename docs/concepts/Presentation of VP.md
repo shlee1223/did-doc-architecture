@@ -18,24 +18,16 @@ puppeteer:
 Presentation of VP
 ==
 
-- Topic: Explanation of the concept of VP presentation
-- Author: Youngho Kang
-- Date: 2024-06-05
-- Version: v1.2.0
+- Subject: Explanation of the concept of VP presentation
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
 
-Revision History
----
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
 
-| Version | Date       | Changes                                                |
-| ------- | ---------- | ------------------------------------------------------ |
-| v1.0.0  | 2024-05-31 | Initial version                                        |
-| v1.1.0  | 2024-06-04 | <li>Changed term from VP offer to Verify offer         |\
-|         |            | <li>Changed term from VpOfferPayload to VerifyOfferPayload |\
-|         |            | <li>Changed term from Present VP to Request Verify     |\
-|         |            | <li>In Direct mode, submission is done by CApp instead of wallet |
-| v1.2.0  | 2024-06-05 | <li>Adjusted the scope of the standard                 |\
-|         |            | <br>&nbsp;- Offer is standardized as VerifyOfferPayload format only |\
-|         |            | <br>&nbsp;- Submission requires mandatory offerId receipt |
+<br>
 
 Table of Contents
 ---

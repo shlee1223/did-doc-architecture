@@ -1,4 +1,16 @@
 # Open DID Architecture
+
+- Subject: Open DID Architecture
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 This document explains the main components that make up the Open DID system and provides an overall architecture diagram.
 
 ## Open DID Components
