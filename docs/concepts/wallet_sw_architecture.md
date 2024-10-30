@@ -1,9 +1,21 @@
 <!-- Individual documents may be merged in the future, so the table of contents is not used. -->
 
-# Wallet SW Archtecture
+# Wallet SW Architecture
+
+- Subject: Wallet SW Architecture
+- Author: OpenSource Development Team
+- Date: 2024-10-18
+- Version: v1.0.0
+
+| Version | Date       | Changes         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | Initial version |
+
+<br>
+
 CA (Certified App) can implement functions for each protocol by referencing Wallet, Utility, Communication, and DataModel SDKs to provide reliable wallet functions, such as user registration, VC issuance, and VP submission.
 
-![wallet_sw_archetecture](./images/wallet_sw_architecture.svg)
+![wallet_sw_archietecture](./images/wallet_sw_architecture.svg)
 
 
 ### 1. SDK Description
@@ -40,11 +52,11 @@ The above SDK structure is a relationship structure diagram between the OpenDID 
 
 ## 1.1 User registration Description
 For detailed explanation, refer to the user registration protocol. [user-registration](./User%20Registration.md)
-![wallet_sw_archetecture](./images/wallet_sw_architecture_reg_user.svg)
+![wallet_sw_archietecture](./images/wallet_sw_architecture_reg_user.svg)
 ## 1.2 VC Issuance Description
 For detailed explanation, refer to the VC issuance protocol. [VC-Issuance](./VC%20Issuance.md)
-![wallet_sw_archetecture](./images/wallet_sw_architecture_issue_vc.svg)
+![wallet_sw_archietecture](./images/wallet_sw_architecture_issue_vc.svg)
 ## 1.3 VP Submission Description
 lease refer to the VP Submission Protocol for detailed instructions. [Presentation-VP](./Presentation%20of%20VP.md)
-![wallet_sw_archetecture](./images/wallet_sw_architecture_submit_vp.svg)
+![wallet_sw_archietecture](./images/wallet_sw_architecture_submit_vp.svg)
 <br>

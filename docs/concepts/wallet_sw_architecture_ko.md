@@ -1,9 +1,21 @@
 <!-- Individual documents may be merged in the future, so the table of contents is not used. -->
-
 # 월렛 소프트웨어 아키텍쳐
+
+- 주제 : 월렛 소프트웨어 아키텍쳐
+- 작성 : 오픈소스개발팀
+- 일자 : 2024-10-18
+- 버전 : v1.0.0
+
+| 버전 | 일자       | 변경         |
+| ------- | ---------- | --------------- |
+| v1.0.0  | 2024-10-18 | 최초 작성 |
+
+<br>
+
+
 CA(Certified App)는 신뢰 가능한 월랫 기능을 제공하기 위해서 유저 등록, VC 발급, VP 제출 등 Wallet, Utility, Communication, DataModel SDK를 참조하여 각 프로토콜 별 기능을 구현할 수 있다.
 
-![wallet_sw_archetecture](./images/wallet_sw_architecture.svg)
+![wallet_sw_archietecture](./images/wallet_sw_architecture.svg)
 
 ### 1. SDK 설명
 상기 SDK구조는 OpenDID의 클라이언트의 인가앱과 월랫 소프트웨어 관계 구조도이며 아래는 각 SDK별 대표 클래스를 설명한다.
@@ -39,11 +51,11 @@ CA(Certified App)는 신뢰 가능한 월랫 기능을 제공하기 위해서 �
 
 ## 1.1 유저 등록 설명
 자세한 설명은 유저등록 프로토콜을 참고한다. [유저등록](./User%20Registration_ko.md)
-![wallet_sw_archetecture](./images/wallet_sw_architecture_reg_user.svg)
+![wallet_sw_archietecture](./images/wallet_sw_architecture_reg_user.svg)
 ## 1.2 VC 발급 설명
 자세한 설명은 VC발급 프로토콜을 참고한다. [VC발급](./VC%20Issuance_ko.md)
-![wallet_sw_archetecture](./images/wallet_sw_architecture_issue_vc.svg)
+![wallet_sw_archietecture](./images/wallet_sw_architecture_issue_vc.svg)
 ## 1.3 VP 제출 설명
 자세한 설명은 VP제출 프로토콜을 참고한다. [VP제출](./Presentation%20of%20VP_ko.md)
-![wallet_sw_archetecture](./images/wallet_sw_architecture_submit_vp.svg)
+![wallet_sw_archietecture](./images/wallet_sw_architecture_submit_vp.svg)
 <br>
