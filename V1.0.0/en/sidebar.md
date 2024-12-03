@@ -39,3 +39,7 @@
 - Security
     - [MitM](/V1.0.0/docs/security/MitM.md)
     - [Authentication and Secure Channel Creation](/V1.0.0/docs/security/authentication.md)
+- **OmniOne Open DID**
+  - [GitHub Repository](https://github.com/OmniOneID)
+  - [Community](https://opendid.omnione.net/community)
+  - [DID Alliance](https://www.didalliance.org)
