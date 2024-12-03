@@ -53,6 +53,6 @@
     }
   }
 </script>
-<form action="return goToEnglishLanguage();" target="_blank">
+<form onsubmit="return goToEnglishLanguage();" target="_blank">
   <input type="submit" value="Go to English Language" style="cursor: pointer;margin-top:12px;padding:6px;width:250px;background-color:#FFFFFF;border:1px solid #0374B5;border-radius:.25rem;color:#0374B5;display:inline-block;font-family:system-ui,sans-serif;text-align:center;text-decoration:none;font-size:16px;-webkit-text-size-adjust:none;mso-hide:all;" />
 </form>
