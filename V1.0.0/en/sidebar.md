@@ -16,7 +16,7 @@
     - [wallet_ko](/V1.0.0/docs/concepts/wallet_ko.md)
     - [wallet_lock_policy](/V1.0.0/docs/concepts/wallet_lock_policy.md)
     - [wallet_policy](/V1.0.0/docs/concepts/wallet_policy.md)
-    - [wallet_sw_architecture](/V1.0.0/docs/concepts/wallet_sw_architecture.md)sss
+    - [wallet_sw_architecture](/V1.0.0/docs/concepts/wallet_sw_architecture.md)
 - Data Standard
     - Data Specification
       - [Data Specification](/V1.0.0/docs/data%20standard/data%20specification/Data%20Specification.md)
