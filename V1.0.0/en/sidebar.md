@@ -37,5 +37,5 @@
     - [OpenDID Code Application Guidelines](/V1.0.0/docs/rules/coding_style.md)
     - [Commit Message Guidelines](/V1.0.0/docs/rules/git_code_commit_rule.md)
 - Security
-    - [MitM](/V1.0.0/docssecurity/MitM.md)
+    - [MitM](/V1.0.0/docs/security/MitM.md)
     - [Authentication and Secure Channel Creation](/V1.0.0/docs/security/authentication.md)
