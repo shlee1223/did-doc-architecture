@@ -1,6 +1,6 @@
 - architecture
     - [Software Architecture](/V1.0.0/docs/architecture/Software%20Architecture.md)
-  - concepts
+- concepts
     - [JSON_serialization](/concepts/JSON_serialization.md)
     - [Presentation of VP](/concepts/Presentation%20of%20VP.md)
     - [User Registration](/concepts/User%20Registration.md)
@@ -17,7 +17,7 @@
     - [wallet_lock_policy](/concepts/wallet_lock_policy.md)
     - [wallet_policy](/concepts/wallet_policy.md)
     - [wallet_sw_architecture](/concepts/wallet_sw_architecture.md)sss
-  - data standard
+- data standard
     - data specification
       - [Data Specification](/data%20standard/data%20specification/Data%20Specification.md)
     - did document format
@@ -27,7 +27,7 @@
       - [VC Schema format](/data%20standard/verifiable%20credential%20format/VC%20Schema%20format.md)
       - [VC format](/data%20standard/verifiable%20credential%20format/VC%20format.md)
       - [VP format](/data%20standard/verifiable%20credential%20format/VP%20format.md)
-  - guide
+- guide
     - api
       - [API Documentation Writing Guide](/guide/api/API%20Documentation%20Writing%20Guide.md)
     - docs
@@ -35,7 +35,7 @@
     - [glossary](/guide/glossary.md)
     - osd
       - [OpenDID Schema Definition Language](/guide/osd/OpenDID%20Schema%20Definition%20Language.md)
-  - rules
+- rules
     - [coding_style](/rules/coding_style.md)
     - [git_code_commit_rule](/rules/git_code_commit_rule.md)
   - security
