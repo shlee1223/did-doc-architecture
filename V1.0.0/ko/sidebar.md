@@ -1,6 +1,6 @@
-- architecture
-  - [소프트웨어 아키텍쳐](/V1.0.0/docs/architecture/Software%20Architecture_ko.md)
-- concepts
+- 아키텍처
+  - [소프트웨어 아키텍처](/V1.0.0/docs/architecture/Software%20Architecture_ko.md)
+- 컨셉
   - [JSON 직렬화](/V1.0.0/docs/concepts/JSON_serialization_ko.md)
   - [VP 제출](/V1.0.0/docs/concepts/Presentation%20of%20VP_ko.md)
   - [사용자 등록](/V1.0.0/docs/concepts/User%20Registration_ko.md)
@@ -15,27 +15,27 @@
   - [월렛 잠금](/V1.0.0/docs/concepts/wallet_lock_policy_ko.md)
   - [월렛 정책](/V1.0.0/docs/concepts/wallet_policy_ko.md)
   - [월렛 소프트웨어 아키텍쳐](/V1.0.0/docs/concepts/wallet_sw_architecture_ko.md)
-- data standard
-  - data specification
+- 데이터 표준
+  - 데이터 스펙
     - [데이터 명세서](/V1.0.0/docs/data%20standard/data%20specification/Data%20Specification_ko.md)
-  - did document format
+  - DID Document 포맷
     - [DID Document 포맷](/V1.0.0/docs/data%20standard/did%20document%20format/DID%20Document%20format_ko.md)
-  - verifiable credential format
+  - Verifiable Credential 포맷
     - [Profile 포맷](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/Profile%20format_ko.md)
     - [VC Schema 포맷](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VC%20Schema%20format_ko.md)
     - [VC 포맷](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VC%20format_ko.md)
     - [VP 포맷](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VP%20format_ko.md)
-- guide
-  - api
-    - [API Documentation Writing Guide](/V1.0.0/docs/guide/api/API%20Documentation%20Writing%20Guide_ko.md)
-  - docs
+- 가이드
+  - API
+    - [OpenDID API 문서 작성 가이드](/V1.0.0/docs/guide/api/API%20Documentation%20Writing%20Guide_ko.md)
+  - 문서
     - [write_document_guide](/V1.0.0/docs/guide/docs/write_document_guide.md)
-  - [glossary](/V1.0.0/docs/guide/glossary.md)
-  - osd
+  - [용어집](/V1.0.0/docs/guide/glossary.md)
+  - OSD
     - [OpenDID Schema Definition Language](/V1.0.0/docs/guide/osd/OpenDID%20Schema%20Definition%20Language_ko.md)
-- rules
-  - [coding_style](/V1.0.0/docs/rules/coding_style_ko.md)
-  - [git_code_commit_rule](/V1.0.0/docs/rules/git_code_commit_rule_ko.md)
-- security
-  - [MitM](/V1.0.0/docs/security/MitM_ko.md)
-  - [authentication](/V1.0.0/docs/security/authentication_ko.md)
+- 규약
+  - [OpenDID 코드 적용 규약 참고 가이드](/V1.0.0/docs/rules/coding_style_ko.md)
+  - [커밋 메시지 가이드라인](/V1.0.0/docs/rules/git_code_commit_rule_ko.md)
+- 보안
+  - [중간자 공격](/V1.0.0/docs/security/MitM_ko.md)
+  - [인증 및 보안채널 생성](/V1.0.0/docs/security/authentication_ko.md)
