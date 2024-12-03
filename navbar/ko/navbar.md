@@ -1,5 +1,5 @@
 - Translations
-  - [English](/)
-  - [Korean](/)
+  - [English](/?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.0.0/README.md&loadSidebar=sidebar/V1.0.0/en/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&maxLevel=1&loadNavbar=sidebar/navbar/en/navbar.md#/V1.0.0/docs/concepts/JSON_serialization)
+  - [Korean](/?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.0.0/README_ko.md&loadSidebar=sidebar/V1.0.0/ko/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&maxLevel=1&loadNavbar=sidebar/navbar/ko/navbar.md#/V1.0.0/docs/concepts/JSON_serialization)
 - Versions
-  - [v1.0.0](/)
+  - [v1.0.0](/?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.0.0/README_ko.md&loadSidebar=sidebar/V1.0.0/ko/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&maxLevel=1&loadNavbar=sidebar/navbar/ko/navbar.md#/V1.0.0/docs/concepts/JSON_serialization)
