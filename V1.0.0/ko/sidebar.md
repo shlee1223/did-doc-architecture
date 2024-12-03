@@ -1,3 +1,4 @@
+- **문서 - v1.0.0**
 - 아키텍처
   - [소프트웨어 아키텍처](/V1.0.0/docs/architecture/Software%20Architecture_ko.md)
 - 컨셉
