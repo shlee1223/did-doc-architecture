@@ -1,5 +1,5 @@
 - Translations
-  - [:en: English](/)
-  - [:ko: Korean](/)
+  - [English](/)
+  - [Korean](/)
 - Versions
   - [v1.0.0](/)
