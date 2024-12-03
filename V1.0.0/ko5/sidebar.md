@@ -45,9 +45,20 @@
 
 <script>
   function goToEnglishLanguage() {
+    // 현재 URL을 가져옵니다.
     const currentUrl = window.location.href;
-    const newUrl = currentUrl.replace(/\/_ko4\//g, '').replace(/\/\/ko\/\//g, '\/en\/');
+  
+    // 현재 경로 (pathname)와 쿼리 문자열 (search) 분리
+    const pathname = window.location.pathname;
+    const search = window.location.search;
 
+    // 쿼리 문자열에서 'ko'를 'en'으로 치환
+    const newSearch = search.replace(/_ko/g, '').replace(/\/ko\//g, '\/en\/');
+  
+    // 새로운 URL을 생성 (기존의 프로토콜, 호스트, 경로, 쿼리 문자열을 모두 합침)
+    const newUrl = window.location.origin + newPathname + newSearch + window.location.hash;
+  
+    // 만약 현재 URL과 새로 만든 URL이 다르면 리디렉션
     if (currentUrl !== newUrl) {
       window.location.href = newUrl;
     }
