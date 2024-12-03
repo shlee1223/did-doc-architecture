@@ -1,43 +1,41 @@
 - Architecture
     - [Software Architecture](/V1.0.0/docs/architecture/Software%20Architecture.md)
 - Concepts
-    - [JSON_serialization](/V1.0.0/docs/concepts/JSON_serialization.md)
+    - [JSON Serialization](/V1.0.0/docs/concepts/JSON_serialization.md)
     - [Presentation of VP](/V1.0.0/docs/concepts/Presentation%20of%20VP.md)
     - [User Registration](/V1.0.0/docs/concepts/User%20Registration.md)
     - [VC Issuance](/V1.0.0/docs/concepts/VC%20Issuance.md)
-    - [blockchain_access](/V1.0.0/docs/concepts/blockchain_access.md)
-    - [components](/V1.0.0/docs/concepts/components.md)
-    - [life_cycle](/V1.0.0/docs/concepts/life_cycle.md)
-    - [manage_pii](/V1.0.0/docs/concepts/manage_pii.md)
-    - [token](/V1.0.0/docs/concepts/token.md)
-    - [token_ko](/V1.0.0/docs/concepts/token_ko.md)
-    - [wallet](/V1.0.0/docs/concepts/wallet.md)
-    - [wallet_interface](/V1.0.0/docs/concepts/wallet_interface.md)
-    - [wallet_ko](/V1.0.0/docs/concepts/wallet_ko.md)
-    - [wallet_lock_policy](/V1.0.0/docs/concepts/wallet_lock_policy.md)
-    - [wallet_policy](/V1.0.0/docs/concepts/wallet_policy.md)
-    - [wallet_sw_architecture](/V1.0.0/docs/concepts/wallet_sw_architecture.md)
+    - [Blockchain Integration](/V1.0.0/docs/concepts/blockchain_access.md)
+    - [Open DID Architecture](/V1.0.0/docs/concepts/components.md)
+    - [Wallet Life Cycle](/V1.0.0/docs/concepts/life_cycle.md)
+    - [Mange of PII](/V1.0.0/docs/concepts/manage_pii.md)
+    - [Open DID Token](/V1.0.0/docs/concepts/token.md)
+    - [Wallet](/V1.0.0/docs/concepts/wallet.md)
+    - [Wallet Interface](/V1.0.0/docs/concepts/wallet_interface.md)
+    - [Wallet Lock](/V1.0.0/docs/concepts/wallet_lock_policy.md)
+    - [Wallet Policy](/V1.0.0/docs/concepts/wallet_policy.md)
+    - [Wallet SW Architecture](/V1.0.0/docs/concepts/wallet_sw_architecture.md)
 - Data Standard
     - Data Specification
       - [Data Specification](/V1.0.0/docs/data%20standard/data%20specification/Data%20Specification.md)
     - DID Document Format
-      - [DID Document format](/V1.0.0/docs/data%20standard/did%20document%20format/DID%20Document%20format.md)
+      - [DID Document Format](/V1.0.0/docs/data%20standard/did%20document%20format/DID%20Document%20format.md)
     - Verifiable Credential Format
-      - [Profile format](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/Profile%20format.md)
-      - [VC Schema format](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VC%20Schema%20format.md)
-      - [VC format](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VC%20format.md)
-      - [VP format](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VP%20format.md)
+      - [Profile Format](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/Profile%20format.md)
+      - [VC Schema Format](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VC%20Schema%20format.md)
+      - [VC Format](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VC%20format.md)
+      - [VP Format](/V1.0.0/docs/data%20standard/verifiable%20credential%20format/VP%20format.md)
 - Guide
     - API
       - [API Documentation Writing Guide](/V1.0.0/docs/guide/api/API%20Documentation%20Writing%20Guide.md)
     - Docs
-      - [write_document_guide](/V1.0.0/docs/guide/docs/write_document_guide.md)
-    - [glossary](/V1.0.0/docs/guide/glossary.md)
+      - [Documentation Writing and Management Guidelines](/V1.0.0/docs/guide/docs/write_document_guide.md)
+    - [Glossary](/V1.0.0/docs/guide/glossary.md)
     - OSD
       - [OpenDID Schema Definition Language](/V1.0.0/docs/guide/osd/OpenDID%20Schema%20Definition%20Language.md)
 - Rules
-    - [coding_style](/V1.0.0/docs/rules/coding_style.md)
-    - [git_code_commit_rule](/V1.0.0/docs/rules/git_code_commit_rule.md)
+    - [OpenDID Code Application Guidelines](/V1.0.0/docs/rules/coding_style.md)
+    - [Commit Message Guidelines](/V1.0.0/docs/rules/git_code_commit_rule.md)
 - Security
-    - [MitM](//V1.0.0/docssecurity/MitM.md)
-    - [authentication](/V1.0.0/docs/security/authentication.md)
+    - [MitM](/V1.0.0/docssecurity/MitM.md)
+    - [Authentication and Secure Channel Creation](/V1.0.0/docs/security/authentication.md)
