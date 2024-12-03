@@ -1,6 +1,6 @@
 - 언어
-  - [English](index.html?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.0.0/docs/architecture/Software%20Architecture.md&loadSidebar=sidebar/V1.0.0/en/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&loadNavbar=sidebar/navbar/en/navbar.md)
-  - [Korean](index.html?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.0.0/docs/architecture/Software%20Architecture_ko.md&loadSidebar=sidebar/V1.0.0/ko/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&loadNavbar=sidebar/navbar/ko/navbar.md)
+  - [English](javascript:goToEnglish())
+  - [Korean](javascript:goToKorean())
 - 버전
   - [v1.1.0](index.html?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.1.0/docs/architecture/Software%20Architecture_ko.md&loadSidebar=sidebar/V1.1.0/ko/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&loadNavbar=sidebar/navbar/ko/navbar.md)
   - [v1.0.0](index.html?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.0.0/docs/architecture/Software%20Architecture_ko.md&loadSidebar=sidebar/V1.0.0/ko/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&loadNavbar=sidebar/navbar/ko/navbar.md)
