@@ -41,6 +41,6 @@
   - [중간자 공격](/V1.1.0/docs/security/MitM_ko.md)
   - [인증 및 보안채널 생성](/V1.1.0/docs/security/authentication_ko.md)
 - **OmniOne Open DID**
-  - [GitHub Repository](https://github.com/OmniOneID)
-  - [Community](https://opendid.omnione.net/community)
-  - [DID Alliance](https://www.didalliance.org)
+  - [GitHub Repository](javascript:window.open('https://github.com/OmniOneID'))
+  - [Community](javascript:window.open('https://opendid.omnione.net/community'))
+  - [DID Alliance](javascript:window.open('https://www.didalliance.org'))
