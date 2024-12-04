@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.0 (2024-10-18)
+## v1.1.0 (2024-10-18)
 
 ### 🚀 Added
 - OpenDID's Software Architecture
