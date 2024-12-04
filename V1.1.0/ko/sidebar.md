@@ -1,7 +1,7 @@
 - **문서 - v1.1.0**
 - 아키텍처
   - [소프트웨어 아키텍처](/V1.1.0/docs/architecture/Software%20Architecture_ko.md)
-- 컨셉
+- 개념
   - [JSON 직렬화](/V1.1.0/docs/concepts/JSON_serialization_ko.md)
   - [VP 제출](/V1.1.0/docs/concepts/Presentation%20of%20VP_ko.md)
   - [사용자 등록](/V1.1.0/docs/concepts/User%20Registration_ko.md)
