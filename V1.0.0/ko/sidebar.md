@@ -49,6 +49,6 @@
   - [CONTRIBUTING](/V1.0.0/CONTRIBUTING.md)
   - [MAINTAINERS](/V1.0.0/MAINTAINERS.md)
 - **OmniOne Open DID**
-  - [GitHub Repository](javascript:window.open("https://github.com/OmniOneID"))
-  - [Community](javascript:window.open("https://opendid.omnione.net/community))
-  - [DID Alliance](javascript:window.open("https://www.didalliance.org))
+  - [GitHub Repository](javascript:window.open('https://github.com/OmniOneID'))
+  - [Community](javascript:window.open('https://opendid.omnione.net/community'))
+  - [DID Alliance](javascript:window.open('https://www.didalliance.org'))
