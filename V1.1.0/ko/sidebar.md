@@ -40,7 +40,7 @@
 - 보안
   - [중간자 공격](/V1.1.0/docs/security/MitM_ko.md)
   - [인증 및 보안채널 생성](/V1.1.0/docs/security/authentication_ko.md)
-- 기타
+- :small_orange_diamond:기타
   - [README](/V1.1.0/README_ko.md)
   - [ROADMAP](/V1.1.0/ROADMAP.md) 
   - [CHANGELOG](/V1.1.0/CHANGELOG.md)
@@ -49,6 +49,6 @@
   - [CONTRIBUTING](/V1.1.0/CONTRIBUTING.md)
   - [MAINTAINERS](/V1.1.0/MAINTAINERS.md)
 - **OmniOne Open DID**
-  - [:small_orange_diamond: GitHub Repository](javascript:window.open('https://github.com/OmniOneID'))
-  - [:small_orange_diamond:	Community](javascript:window.open('https://opendid.omnione.net/community'))
-  - [:small_orange_diamond:	DID Alliance](javascript:window.open('https://www.didalliance.org'))
+  - [:small_orange_diamond:GitHub Repository](javascript:window.open('https://github.com/OmniOneID'))
+  - [:small_orange_diamond:Community](javascript:window.open('https://opendid.omnione.net/community'))
+  - [:small_orange_diamond:DID Alliance](javascript:window.open('https://www.didalliance.org'))
