@@ -40,6 +40,14 @@
 - Security
     - [MitM](/V1.1.0/docs/security/MitM.md)
     - [Authentication and Secure Channel Creation](/V1.1.0/docs/security/authentication.md)
+- Etc
+  - [README](/V1.1.0/README.md)
+  - [ROADMAP](/V1.1.0/ROADMAP.md) 
+  - [CHANGELOG](/V1.1.0/CHANGELOG.md)
+  - [CLA](/V1.1.0/CLA.md)
+  - [CODE_OF_CONDUCT](/V1.1.0/CODE_OF_CONDUCT.md)
+  - [CONTRIBUTING](/V1.1.0/CONTRIBUTING.md)
+  - [MAINTAINERS](/V1.1.0/MAINTAINERS.md)
 - **OmniOne Open DID**
   - [GitHub Repository](javascript:window.open('https://github.com/OmniOneID'))
   - [Community](javascript:window.open('https://opendid.omnione.net/community'))
