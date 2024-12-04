@@ -40,7 +40,15 @@
 - 보안
   - [중간자 공격](/V1.0.0/docs/security/MitM_ko.md)
   - [인증 및 보안채널 생성](/V1.0.0/docs/security/authentication_ko.md)
+- 기타
+  - [README](/V1.0.0/README_ko.md)
+  - [ROADMAP](/V1.0.0/ROADMAP.md) 
+  - [Changelog](/V1.0.0/CHANGELOG.md)
+  - [CLA](/V1.0.0/CLA.md)
+  - [Contributor Covenant Code of Conduct](/V1.0.0/code_of_conduct.md)
+  - [Contribution Guidelines](/V1.0.0/contributing.md)
+  - [Maintainers](/V1.0.0/MAINTAINERS.md)
 - **OmniOne Open DID**
-  - [GitHub Repository](https://github.com/OmniOneID)
-  - [Community](https://opendid.omnione.net/community)
-  - [DID Alliance](https://www.didalliance.org)
+  - [GitHub Repository](javascript:window.open("https://github.com/OmniOneID"))
+  - [Community](javascript:window.open("https://opendid.omnione.net/community))
+  - [DID Alliance](javascript:window.open("https://www.didalliance.org))
