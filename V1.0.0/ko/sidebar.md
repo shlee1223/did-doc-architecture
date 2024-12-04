@@ -43,11 +43,11 @@
 - 기타
   - [README](/V1.0.0/README_ko.md)
   - [ROADMAP](/V1.0.0/ROADMAP.md) 
-  - [Changelog](/V1.0.0/CHANGELOG.md)
+  - [CHANGELOG](/V1.0.0/CHANGELOG.md)
   - [CLA](/V1.0.0/CLA.md)
-  - [Contributor Covenant Code of Conduct](/V1.0.0/code_of_conduct.md)
-  - [Contribution Guidelines](/V1.0.0/contributing.md)
-  - [Maintainers](/V1.0.0/MAINTAINERS.md)
+  - [CODE_OF_CONDUCT](/V1.0.0/CODE_OF_CONDUCT.md)
+  - [CONTRIBUTING](/V1.0.0/CONTRIBUTING.md)
+  - [MAINTAINERS](/V1.0.0/MAINTAINERS.md)
 - **OmniOne Open DID**
   - [GitHub Repository](javascript:window.open("https://github.com/OmniOneID"))
   - [Community](javascript:window.open("https://opendid.omnione.net/community))
