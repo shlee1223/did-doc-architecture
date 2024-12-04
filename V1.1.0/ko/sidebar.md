@@ -40,7 +40,7 @@
 - 보안
   - [중간자 공격](/V1.1.0/docs/security/MitM_ko.md)
   - [인증 및 보안채널 생성](/V1.1.0/docs/security/authentication_ko.md)
-- :small_orange_diamond:기타
+- 기타
   - [README](/V1.1.0/README_ko.md)
   - [ROADMAP](/V1.1.0/ROADMAP.md) 
   - [CHANGELOG](/V1.1.0/CHANGELOG.md)
