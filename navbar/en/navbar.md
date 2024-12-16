@@ -2,5 +2,5 @@
   - [English](javascript:goToEnglish())
   - [Korean](javascript:goToKorean())
 - Versions
-  - [v1.1.0](index.html?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.1.0/CHANGELOG.md&loadSidebar=sidebar/V1.1.0/en/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&loadNavbar=sidebar/navbar/en/navbar.md)
-  - [v1.0.0](index.html?basePath=https://raw.githubusercontent.com/shlee1223/did-doc-architecture/refs/heads&sidebar=true&homepage=V1.0.0/CHANGELOG.md&loadSidebar=sidebar/V1.0.0/en/sidebar.md&searchbox=true&name=DID%20Doc%20Architecture&link-color=FFA500&loadNavbar=sidebar/navbar/en/navbar.md)
+  - [v1.1.0](javascript:goToSelectedVersion('V1.1.0'))
+  - [v1.0.0](javascript:goToSelectedVersion('V1.0.0'))
