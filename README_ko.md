@@ -8,7 +8,7 @@ OPEN DID는 많은 국가와 구성원들이 이와같은 생태계를 구성할
 * OPEN DID 시스템은 참여하는 Entities간 신뢰체인 구성을 위한 Trust Environment, Digital ID 기반의 다양한 증명서를 저장 및 관리할 수 있는 Wallet, 다양한 증명서를 포용하는 Digital ID, 그리고 데이터 보호를 위한 Security로 구성합니다.
 * 이러한 OPEN DID 오픈소스의 가치는 향후 온라인에서의 모든 디지털 활동의 근간이 될 것으로 기대합니다.
 
-![overview](docs/assets/images/index_overview.png)
+![overview](https://raw.githubusercontent.com/OmniOneID/did-doc-architecture/refs/heads/main/docs/assets/images/index_overview.png)
 
 ## 1. Principles
 OPEN DID 시스템은 아래와 같은 원칙으로 오픈소스를 제공하고자 합니다. 이러한 원칙들은 신뢰할 수 있는 디지털 신원 인증 환경을 구축하고, 모든 참여자가 공정하고 안전하게 사용할 수 있도록 하기 위함입니다.
