@@ -12,6 +12,7 @@
   - [3강. Open DID 신뢰환경](#3강-open-did-신뢰환경)
   - [4강. 사용자 등록](#4강-사용자-등록)
   - [5강. VC 발급](#5강-VC-발급)
+  - [6강. VP 제출](#6강-VP-제출)
 - [더 많은 강의가 곧 공개됩니다...]
 
 <br>
@@ -85,5 +86,18 @@
 - Open DID VC 발급 관련 개념 복습
 - Open DID VC 발급 절차
 - Open DID VC 발급 관련 실 사용 사례
+
+---
+
+### 6강. VP 제출
+<iframe width="450" height="250" src="https://www.youtube.com/embed/w0ddiJ4vMhU?si=C1kRMbezMsaCtc74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
+
+이 영상은 Open DID VP 제출의 개념 및 절차를 이해하는데 도움을 줍니다.
+
+📚 **이번 강의에서 다루는 내용**
+- Open DID VP 제출 개요
+- Open DID VP 제출 관련 개념 복습
+- Open DID VP 제출 절차
+- Open DID VP 제출 관련 실 사용 사례
 
 ---
