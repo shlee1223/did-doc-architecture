@@ -56,7 +56,8 @@
   - [인증 및 보안채널 생성](/V2.0.0/docs/security/authentication_ko.md)
 - 기타
   - [README](/V2.0.0/README_ko.md)
-  - [ROADMAP](/V2.0.0/ROADMAP.md) 
+  - [ROADMAP](/V2.0.0/ROADMAP.md)
+  - [Open DID 강의 시리즈](/V2.0.0/LECTURES_ko.md)
   - [CHANGELOG](/V2.0.0/CHANGELOG.md)
   - [CLA](/V2.0.0/CLA.md)
   - [CODE_OF_CONDUCT](/V2.0.0/CODE_OF_CONDUCT.md)
