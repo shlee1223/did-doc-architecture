@@ -11,8 +11,9 @@
   - [2강. Open DID 플랫폼 구성요소](#2강-open-did-플랫폼-구성요소)
   - [3강. Open DID 신뢰환경](#3강-open-did-신뢰환경)
   - [4강. 사용자 등록](#4강-사용자-등록)
-  - [5강. VC 발급](#5강-VC-발급)
-  - [6강. VP 제출](#6강-VP-제출)
+  - [5강. VC 발급](#5강-vc-발급)
+  - [6강. VP 제출](#6강-vp-제출)
+  - [부록. Open DID GitHub Repository 구성 및 소개](#부록-open-did-github-repository-구성-및-소개)
 - [더 많은 강의가 곧 공개됩니다...]
 
 <br>
@@ -99,5 +100,19 @@
 - Open DID VP 제출 관련 개념 복습
 - Open DID VP 제출 절차
 - Open DID VP 제출 관련 실 사용 사례
+
+---
+
+### 부록. Open DID GitHub Repository 구성 및 소개
+<iframe width="450" height="250" src="https://www.youtube.com/embed/6dSL28uKgGk?si=kTlo9VkASK7Er9-e" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
+
+이 영상은 Open DID GitHub Repository의 전체 구조를 이해하는데 도움을 줍니다.
+
+📚 **이번 강의에서 다루는 내용**
+- Open DID GitHub Repository 구성 개요
+- Open DID GitHub Repository 구성 - Server
+- Open DID GitHub Repository 구성 - Mobile
+- Open DID GitHub Repository 구성 - Document
+- Open DID GitHub Repository 전체 구성
 
 ---
