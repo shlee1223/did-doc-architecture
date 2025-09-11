@@ -13,6 +13,7 @@ Table of Contents
   - [Lecture 4: User Registration in Open DID](#4-user-registration-in-open-did)
   - [Lecture 5: VC Issuance in Open DID](#5-vc-issuance-in-open-did)
   - [Lecture 6: VP Submission in Open DID](#6-vp-submission-in-open-did)
+  - [Appendix: Open DID GitHub Repository Structure](#appendix-open-did-github-repository-structure)
 - [More lectures coming soon...]
 
 <br>
@@ -101,3 +102,18 @@ This video will help you understand the concept and procedure of Open DID VP sub
 - Practical use cases of Open DID VP submission
 
 ---
+
+### Appendix. Open DID GitHub Repository Structure
+<iframe width="450" height="250" src="https://www.youtube.com/embed/PlNfRa59t2A?si=eh39rVMNYG1mAKX2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
+
+This video will help you understand the overall structure of the Open DID GitHub repository.
+
+📚 **Topics covered in this lecture**
+- Overview of the Open DID GitHub repository structure
+- Open DID GitHub repository structure – Server
+- Open DID GitHub repository structure – Mobile
+- Open DID GitHub repository structure – Document
+- Full structure of the Open DID GitHub repository
+
+---
+
