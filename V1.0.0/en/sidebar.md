@@ -51,4 +51,4 @@
 - **OmniOne Open DID**
   - [:small_orange_diamond:GitHub Repository](javascript:window.open('https://github.com/OmniOneID'))
   - [:small_orange_diamond:Community](javascript:window.open('https://opendid.omnione.net/community'))
-  - [:small_orange_diamond:DID Alliance](javascript:window.open('https://www.didalliance.org'))
+  - [:small_orange_diamond:Open DID Foundation](javascript:window.open('https://opendid.org'))
