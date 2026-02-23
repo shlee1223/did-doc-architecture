@@ -17,9 +17,9 @@
 ### 1. Overview of Open DID Hands-On Training
 <iframe width="450" height="250" src="https://www.youtube.com/embed/00xW3fn0RBQ?si=pYFh0kstyYpVGnnH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
-This first lecture provides an overview of the entire Open DID hands-on workflow and the learning objectives.
-
 \* Please enable English subtitles to follow along.
+
+This first lecture provides an overview of the entire Open DID hands-on workflow and the learning objectives.
 
 📚 **Topics covered in this lecture**
 - Understanding the complete Open DID hands-on workflow
@@ -28,16 +28,16 @@ This first lecture provides an overview of the entire Open DID hands-on workflow
 - Key terminology: DID, VC, VP, and more
 - Guidance on choosing the installation method (Orchestrator / Gradle / IDE / Docker)
 
-⚠️ This lecture is based on Open DID Release Version 2.0.0.0.
+⚠️ This lecture is baed on Open DID Release Version 2.0.0.0.
 
 ---
 
 ### 2-1. Practice for Installing an Open DID Server Using Orchestrator
 <iframe width="450" height="250" src="https://www.youtube.com/embed/B3MuPBrrddE?si=WfNkEK6zqyGYgKb9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
-This Lecture 2-1 provides hands-on practice for installing an Open DID server using Orchestrator.
-
 \* Please enable English subtitles to follow along.
+
+This Lecture 2-1 provides hands-on practice for installing an Open DID server using Orchestrator.
 
 📚 **Topics covered in this lecture**
 - Configuring an Open DID server based on Orchestrator
@@ -52,9 +52,9 @@ This Lecture 2-1 provides hands-on practice for installing an Open DID server us
 ### 2-2. Practice for Installing and Running a Server via Gradle Build
 <iframe width="450" height="250" src="https://www.youtube.com/embed/Gsd_rgnVO4I?si=8ypT8rp6aQsS2VdM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
-This Lecture 2-2 provides hands-on practice for installing and running a server directly through a Gradle build.
-
 \* Please enable English subtitles to follow along.
+
+This Lecture 2-2 provides hands-on practice for installing and running a server directly through a Gradle build.
 
 📚 **Topics covered in this lecture**
 - Overview of server installation based on Gradle
@@ -69,9 +69,9 @@ This Lecture 2-2 provides hands-on practice for installing and running a server 
 ### 2-3. Practice for Installing and Running a Server in an IntelliJ IDEA Environment
 <iframe width="450" height="250" src="https://www.youtube.com/embed/wEXOBSXu6Is?si=myfQcn1psy636FsO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
-This Lecture 2-3 provides hands-on practice for installing and running a server within a development environment using IntelliJ IDEA.
-
 \* Please enable English subtitles to follow along.
+
+This Lecture 2-3 provides hands-on practice for installing and running a server within a development environment using IntelliJ IDEA.
 
 📚 **Topics covered in this lecture**
 - Setting up an IDE-based server execution environment
@@ -86,9 +86,9 @@ This Lecture 2-3 provides hands-on practice for installing and running a server 
 ### 2-4. Practice for Configuring a Server Using Docker Containers
 <iframe width="450" height="250" src="https://www.youtube.com/embed/pTwI3pzldS4?si=ZpoC0jEcxk-vpLda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
-This Lecture 2-4 provides hands-on practice for configuring and running a server based on Docker containers.
-
 \* Please enable English subtitles to follow along.
+
+This Lecture 2-4 provides hands-on practice for configuring and running a server based on Docker containers.
 
 📚 **Topics covered in this lecture**
 - Overview of Docker-based server configuration
