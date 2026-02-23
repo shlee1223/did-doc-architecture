@@ -12,7 +12,7 @@
   - [4강. 사용자 등록](LECTURES_INTRO_ko.md#4강-사용자-등록)
   - [5강. VC 발급](LECTURES_INTRO_ko.md#5강-vc-발급)
   - [6강. VP 제출](LECTURES_INTRO_ko.md#6강-vp-제출)
-  - [부록. Open DID GitHub Repository 구성 및 소개](LECTURES_INTRO_ko.md#0부록-open-did-github-repository-구성-및-소개)
+  - [부록. Open DID GitHub Repository 구성 및 소개](LECTURES_INTRO_ko.md#부록-open-did-github-repository-구성-및-소개)
 - [OmniOne Open DID 강의 시리즈 : 실습 튜토리얼](LECTURES_TUTORIAL_ko.md)
   - [1강. Open DID 실습 교육 개요](LECTURES_TUTORIAL_ko.md#1강-open-did-실습-교육-개요)
   - [2-1강. Open DID 서버 설치 (Orchestrator)](LECTURES_TUTORIAL_ko.md#2-1강-open-did-서버-설치-orchestrator)
