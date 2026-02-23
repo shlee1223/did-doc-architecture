@@ -4,8 +4,7 @@
 
 ---
 
-목차
---
+**목차**
 - [1강. DID 기초 소개](#1강-did-기초-소개)
 - [2강. Open DID 플랫폼 구성요소](#2강-open-did-플랫폼-구성요소)
 - [3강. Open DID 신뢰환경](#3강-open-did-신뢰환경)
@@ -16,7 +15,7 @@
 
 <br>
 
-#### 1강. DID 기초 소개
+### 1강. DID 기초 소개
 <iframe width="450" height="250" src="https://www.youtube.com/embed/98qFzeEC55Y?si=G1pjU8XJhwWeRb36" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 이 영상은 DID(Decentralized Identifier)의 기본 개념을 이해하는데 도움을 줍니다.
@@ -30,7 +29,7 @@
 
 ---
 
-#### 2강. Open DID 플랫폼 구성요소
+### 2강. Open DID 플랫폼 구성요소
 <iframe width="450" height="250" src="https://www.youtube.com/embed/06J0Bptnt9A?si=Uii23XyUHxXPCj80" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 이 영상은 Open DID 플랫폼 구성요소를 이해하는데 도움을 줍니다.
@@ -44,7 +43,7 @@
 
 ---
 
-#### 3강. Open DID 신뢰환경
+### 3강. Open DID 신뢰환경
 <iframe width="450" height="250" src="https://www.youtube.com/embed/FA3lEZNU_lw?si=a8Egc5Bi6TxeuefN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 이 영상은 Open DID 신뢰환경을 이해하는데 도움을 줍니다.
@@ -58,7 +57,7 @@
 
 ---
 
-#### 4강. 사용자 등록
+### 4강. 사용자 등록
 <iframe width="450" height="250" src="https://www.youtube.com/embed/mHeJMnLwZMY?si=NG9FuSra_bZHq08A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 이 영상은 Open DID 사용자 등록을 이해하는데 도움을 줍니다.
@@ -71,7 +70,7 @@
 
 ---
 
-#### 5강. VC 발급
+### 5강. VC 발급
 <iframe width="450" height="250" src="https://www.youtube.com/embed/aIX_6uo4y_8?si=t_HXHPbBRLqhTJfl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 이 영상은 Open DID VC 발급의 개념 및 절차를 이해하는데 도움을 줍니다.
@@ -84,7 +83,7 @@
 
 ---
 
-#### 6강. VP 제출
+### 6강. VP 제출
 <iframe width="450" height="250" src="https://www.youtube.com/embed/w0ddiJ4vMhU?si=C1kRMbezMsaCtc74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 이 영상은 Open DID VP 제출의 개념 및 절차를 이해하는데 도움을 줍니다.
@@ -97,7 +96,7 @@
 
 ---
 
-#### Appendix. Open DID GitHub Repository 구성 및 소개
+### Appendix. Open DID GitHub Repository 구성 및 소개
 <iframe width="450" height="250" src="https://www.youtube.com/embed/6dSL28uKgGk?si=kTlo9VkASK7Er9-e" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 이 영상은 Open DID GitHub Repository의 전체 구조를 이해하는데 도움을 줍니다.
