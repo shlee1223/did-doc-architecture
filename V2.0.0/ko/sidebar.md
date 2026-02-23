@@ -58,6 +58,8 @@
   - [README](/V2.0.0/README_ko.md)
   - [ROADMAP](/V2.0.0/ROADMAP.md)
   - [Open DID 강의 시리즈](/V2.0.0/LECTURES_ko.md)
+    - [Open DID 강의 시리즈 : 입문자용](/V2.0.0/LECTURES_INTRO_ko.md)
+    - [Open DID 강의 시리즈 : 실습 튜토리얼](/V2.0.0/LECTURES_TUTORIAL_ko.md)
   - [CHANGELOG](/V2.0.0/CHANGELOG.md)
   - [CLA](/V2.0.0/CLA.md)
   - [CODE_OF_CONDUCT](/V2.0.0/CODE_OF_CONDUCT.md)
