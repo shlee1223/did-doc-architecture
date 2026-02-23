@@ -1,7 +1,9 @@
 # OmniOne Open DID Lecture Series
 > We have prepared a lecture series to help you easily understand and hands-on experience OmniOne Open DID.<br>
 > From basic concepts to server setup practice, you can learn Open DID step by step.
+
 ---
+
 **Table of Contents**
 - [OmniOne Open DID Lecture Series : For Beginners](LECTURES_INTRO_en.md)
   - [Lecture 1: Introduction to DID Basics](LECTURES_INTRO_en.md#1-introduction-to-did-basics)
