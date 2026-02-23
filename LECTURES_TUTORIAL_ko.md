@@ -4,8 +4,7 @@
 
 ---
 
-목차
---
+**목차**
 - [1강. Open DID 실습 교육 개요](#1강-open-did-실습-교육-개요)
 - [2-1강. Open DID 서버 설치 (Orchestrator)](#2-1강-open-did-서버-설치-orchestrator)
 - [2-2강. Open DID 서버 설치 (Gradle)](#2-2강-open-did-서버-설치-gradle)
@@ -15,7 +14,7 @@
 
 <br>
 
-#### 1강. Open DID 실습 교육 개요
+### 1강. Open DID 실습 교육 개요
 <iframe width="450" height="250" src="https://www.youtube.com/embed/00xW3fn0RBQ?si=pYFh0kstyYpVGnnH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 OpenDID 실습 교육의 전체 흐름과 학습 목표를 소개합니다.
@@ -31,7 +30,7 @@ OpenDID 실습 교육의 전체 흐름과 학습 목표를 소개합니다.
 
 ---
 
-#### 2-1강. Open DID 서버 설치 (Orchestrator)
+### 2-1강. Open DID 서버 설치 (Orchestrator)
 <iframe width="450" height="250" src="https://www.youtube.com/embed/B3MuPBrrddE?si=WfNkEK6zqyGYgKb9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 Orchestrator를 이용한 서버 설치 방법을 실습합니다.
@@ -46,7 +45,7 @@ Orchestrator를 이용한 서버 설치 방법을 실습합니다.
 
 ---
 
-#### 2-2강. Open DID 서버 설치 (Gradle)
+### 2-2강. Open DID 서버 설치 (Gradle)
 <iframe width="450" height="250" src="https://www.youtube.com/embed/Gsd_rgnVO4I?si=8ypT8rp6aQsS2VdM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 Gradle 빌드를 통해 직접 서버를 설치하고 구동하는 방법을 실습합니다.
@@ -61,7 +60,7 @@ Gradle 빌드를 통해 직접 서버를 설치하고 구동하는 방법을 실
 
 ---
 
-#### 2-3강. Open DID 서버 설치 (IDE)
+### 2-3강. Open DID 서버 설치 (IDE)
 <iframe width="450" height="250" src="https://www.youtube.com/embed/wEXOBSXu6Is?si=myfQcn1psy636FsO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 IntelliJ IDEA를 활용해 개발 환경에서 서버를 설치하고 실행하는 방법을 실습합니다.
@@ -76,7 +75,7 @@ IntelliJ IDEA를 활용해 개발 환경에서 서버를 설치하고 실행하�
 
 ---
 
-#### 2-4강. Open DID 서버 설치 (Docker)
+### 2-4강. Open DID 서버 설치 (Docker)
 <iframe width="450" height="250" src="https://www.youtube.com/embed/pTwI3pzldS4?si=ZpoC0jEcxk-vpLda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 Docker 컨테이너 기반으로 서버를 구성하는 방법을 실습합니다.
