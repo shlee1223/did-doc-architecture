@@ -12,7 +12,7 @@
 - [4강. 사용자 등록](#4강-사용자-등록)
 - [5강. VC 발급](#5강-vc-발급)
 - [6강. VP 제출](#6강-vp-제출)
-- [부록. Open DID GitHub Repository 구성 및 소개](#부록-open-did-github-repository-구성-및-소개)
+- [부록. Open DID GitHub Repository 구성 및 소개](#0부록-open-did-github-repository-구성-및-소개)
 
 <br>
 
