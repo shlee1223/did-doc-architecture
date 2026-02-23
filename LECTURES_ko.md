@@ -4,8 +4,7 @@
 
 ---
 
-목차
---
+**목차**
 - [OmniOne Open DID 강의 시리즈 : 입문자용](LECTURES_INTRO_ko.md)
   - [1강. DID 기초 소개](LECTURES_INTRO_ko.md#1강-did-기초-소개)
   - [2강. Open DID 플랫폼 구성요소](LECTURES_INTRO_ko.md#2강-open-did-플랫폼-구성요소)
