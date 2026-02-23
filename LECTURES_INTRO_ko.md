@@ -12,7 +12,7 @@
 - [4강. 사용자 등록](#4강-사용자-등록)
 - [5강. VC 발급](#5강-vc-발급)
 - [6강. VP 제출](#6강-vp-제출)
-- [부록. Open DID GitHub Repository 구성 및 소개](#0부록-open-did-github-repository-구성-및-소개)
+- [부록. Open DID GitHub Repository 구성 및 소개](#appendix-open-did-github-repository-구성-및-소개)
 
 <br>
 
@@ -97,7 +97,7 @@
 
 ---
 
-#### 부록. Open DID GitHub Repository 구성 및 소개
+#### Appendix. Open DID GitHub Repository 구성 및 소개
 <iframe width="450" height="250" src="https://www.youtube.com/embed/6dSL28uKgGk?si=kTlo9VkASK7Er9-e" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
 
 이 영상은 Open DID GitHub Repository의 전체 구조를 이해하는데 도움을 줍니다.
