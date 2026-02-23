@@ -1,6 +1,3 @@
----
-subMaxLevel: 0
----
 # OmniOne Open DID 강의 시리즈 : 입문자용
 > OmniOne Open DID를 쉽게 이해할 수 있도록 강의 시리즈를 준비했습니다.<br>
 > 이 시리즈는 DID는 물론 Open DID에 대한 전반적인 이해를 위해 많은 도움이 될 것입니다.
