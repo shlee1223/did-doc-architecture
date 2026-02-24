@@ -10,8 +10,8 @@
 - [Lecture 2-2: Practice for Installing and Running a Server via Gradle Build](#2-2-practice-for-installing-and-running-a-server-via-gradle-build)
 - [Lecture 2-3: Practice for Installing and Running a Server in an IntelliJ IDEA Environment](#2-3-practice-for-installing-and-running-a-server-in-an-intellij-idea-environment)
 - [Lecture 2-4: Practice for Configuring a Server Using Docker Containers](#2-4-practice-for-configuring-a-server-using-docker-containers)
-- [More lectures coming soon...]
 - [Lecture 3: Practice for Registering an Installed Open DID Server to the Trust Registry](#3-practice-for-registering-an-installed-open-did-server-to-the-trust-registry)
+- [More lectures coming soon...]
 
 <br>
 
