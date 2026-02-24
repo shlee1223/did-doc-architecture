@@ -11,6 +11,7 @@
 - [Lecture 2-3: Practice for Installing and Running a Server in an IntelliJ IDEA Environment](#2-3-practice-for-installing-and-running-a-server-in-an-intellij-idea-environment)
 - [Lecture 2-4: Practice for Configuring a Server Using Docker Containers](#2-4-practice-for-configuring-a-server-using-docker-containers)
 - [More lectures coming soon...]
+- [Lecture 3: Practice for Registering an Installed Open DID Server to the Trust Registry](#3-practice-for-registering-an-installed-open-did-server-to-the-trust-registry)
 
 <br>
 
@@ -95,5 +96,22 @@ This Lecture 2-4 provides hands-on practice for configuring and running a server
 - How to build a Docker image
 - Running the server using Docker Compose
 - Checking container status and logs
+
+⚠️ This lecture is based on Open DID Release Version 2.0.0.0.
+
+---
+
+### 3. Practice for Registering an Installed Open DID Server to the Trust Registry
+<iframe width="450" height="250" src="https://www.youtube.com/embed/Png9jnR98OM?si=V-_MOBQ13WBjfvwy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
+
+\* Please enable English subtitles to follow along.
+
+This Lecture 3 provides hands-on practice for registering an installed Open DID server to the Trust Registry.
+
+📚 **Topics covered in this lecture**
+- Understanding the server registration overview and workflow
+- Practice for registering the TA server
+- Practice for registering the Issuer server
+- Introduction to the quick registration method
 
 ⚠️ This lecture is based on Open DID Release Version 2.0.0.0.
