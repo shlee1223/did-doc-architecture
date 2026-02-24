@@ -10,6 +10,7 @@
 - [2-2강. Open DID 서버 설치 (Gradle)](#2-2강-open-did-서버-설치-gradle)
 - [2-3강. Open DID 서버 설치 (IDE)](#2-3강-open-did-서버-설치-ide)
 - [2-4강. Open DID 서버 설치 (Docker)](#2-4강-open-did-서버-설치-docker)
+- [3강. Open DID 서버 등록 (Trust Registry)](#3강-open-did-서버-등록-trust-registry)
 - [더 많은 강의가 곧 공개됩니다...]
 
 <br>
@@ -85,5 +86,20 @@ Docker 컨테이너 기반으로 서버를 구성하는 방법을 실습합니�
 - Docker Image 생성 방법
 - Docker Compose를 이용한 서버 실행
 - 컨테이너 상태 및 로그 확인
+
+⚠️ 본 강의는 Open DID 릴리즈 버전 2.0.0.0 버전 기준입니다.
+
+---
+
+### 3강. Open DID 서버 등록 (Trust Registry)
+<iframe width="450" height="250" src="https://www.youtube.com/embed/Png9jnR98OM?si=phk_fMdYwRlSwpvs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-right: 100px;"></iframe>
+
+설치된 Open DID 서버를 신뢰 저장소에 등록하는 방법을 실습합니다.
+
+📚 **이번 강의에서 다루는 내용**
+- 서버 등록 개요 및 흐름 이해
+- TA 서버 등록 실습
+- Issuer 서버 등록 실습
+- 빠른 등록 방법 소개
 
 ⚠️ 본 강의는 Open DID 릴리즈 버전 2.0.0.0 버전 기준입니다.
