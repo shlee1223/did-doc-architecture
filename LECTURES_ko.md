@@ -19,4 +19,5 @@
   - [2-2강. Open DID 서버 설치 (Gradle)](LECTURES_TUTORIAL_ko.md#2-2강-open-did-서버-설치-gradle)
   - [2-3강. Open DID 서버 설치 (IDE)](LECTURES_TUTORIAL_ko.md#2-3강-open-did-서버-설치-ide)
   - [2-4강. Open DID 서버 설치 (Docker)](LECTURES_TUTORIAL_ko.md#2-4강-open-did-서버-설치-docker)
+  - [3강. Open DID 서버 등록 (Trust Registry)](LECTURES_TUTORIAL_ko.md#3강-open-did-서버-등록-trust-registry)
 - [더 많은 강의가 곧 공개됩니다...]
